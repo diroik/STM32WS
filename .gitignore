@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+/PLC-1/settings
+/PLC-1/Debug
+/PLC-1/Release
