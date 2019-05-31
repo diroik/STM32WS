@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1800856593</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\src\Classes.cpp</file>
+      <file>$PROJ_DIR$\src\Init.cpp</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\startup_stm32f10x_md_vl.s</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\stm32l1100__it.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\system_stm32f10x.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmath</file>
+      <file>$PROJ_DIR$\src\AdvClasses.cpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\cctype</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\iostream</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1100__it.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\stm32f10x_flash.h</file>
+      <file>$PROJ_DIR$\incl\params_def.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\PowerMetr.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Classes.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1100__it.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cstddef</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupts.o</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\xutility</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\xdebug</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\system_stm32f10x.h</file>
+      <file>$PROJ_DIR$\lib\IAP_01.icf</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\sstream</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\stm32f10x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\AdvClasses.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\incl\init.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\xiosbase</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\xstring</file>
+      <file>$TOOLKIT_DIR$\inc\c\clocale</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\cmsis_compiler.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_ne.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\iosfwd</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\istream</file>
+      <file>$TOOLKIT_DIR$\inc\c\climits</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\memory</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\list</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\string</file>
+      <file>$PROJ_DIR$\Debug\Obj\Classes.o</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\stdexcept</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\ios</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\stm32f10x_tim.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Classes.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\cerrno</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\utility</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\locale.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\PowerMetr.o</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\iterator</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\exception</file>
+      <file>$PROJ_DIR$\incl\AdvClasses.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\IAP_01.pbd</file>
+      <file>$PROJ_DIR$\incl\flash_map.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\src\PowerMetr.cpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\new</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\iutility</file>
+      <file>$TOOLKIT_DIR$\inc\c\cstring</file>
+      <file>$PROJ_DIR$\incl\Classes.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cstdio</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\xstddef</file>
+      <file>$PROJ_DIR$\Debug\Obj\AdvClasses.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\src\interrupts.cpp</file>
+      <file>$PROJ_DIR$\Debug\List\IAP_01.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\xlocnum</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init.o</file>
+      <file>$PROJ_DIR$\main.cpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cstdlib</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupts.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\streambuf</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\functional</file>
+      <file>$PROJ_DIR$\Debug\Exe\IAP_01.out</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\ostream</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_lconv.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\AdvClasses.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1100__it.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\incl\PowerMetr.h</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\xmemory</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupts.__cstat.et</file>
+      <file>$PROJ_DIR$\incl\Classes_def.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\PowerMetr.__cstat.et</file>
+      <file>$PROJ_DIR$\incl\type_define.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 107 94</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Classes.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82 44 8 48 40 7 86 67 29 100 12 119 11 20 108 61 109 36 39 90 114 78 5 33 57 42 81 49 64 102 70 32 24 66 97 35 89 53 23 83 25 117 88 116 54 27 13 75 21 18 71 79 38 96 50 104 15 31 84 59 37 65 43 55 105 87 101 34 106 73 45 19 41 112 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Init.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 79 44 45 8 89 101 86 88 20 82 37 106 33 62 29 19 41 18 71 38 119 84 65 55 102 57 13 25 81 42 35 96 50 104 15 31 43 105 75 87 34 90 11 73 23 49 117 116 83 54 27 21 108 61 64 40 70 109 32 36 7 24 66 97 39 48 53 114 67</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\stm32l1100__it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 25 42 45 19 41 82 81 29 18 71 79 38 117</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\system_stm32f10x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 38 25 19 45 82 79 29 41 18 71 81 117 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\AdvClasses.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110 58 98 22 68 72 111 9</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 82 44 102 49 24 89 33 42 21 18 71 38 70 32 97 35 53 23 48 113 88 119 8 75 90 79 64 66 83 29 116 54 27 13 81 11 20 108 61 40 109 36 7 39 86 114 67 25 117 76 96 50 104 15 31 84 59 37 65 43 55 105 87 101 34 106 73 45 19 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76 88 33 116 119 83 75 90 44 82 18 79 38 71 81 21 11 20 102 35 57 49 108 61 96 64 15 50 31 40 70 109 89 84 32 104 36 7 37 66 65 55 43 97 105 59 39 48 87 101 34 24 54 106 86 53 73 23 67 114 8 27 42 13 29 45 19 41 117 25 113 0 78 12 5 112 100 74 1 62 93 99 80 3 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\PowerMetr.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 20 82 76 27 37 86 79 89 59 67 83 75 90 71 84 65 55 48 119 116 54 13 21 102 18 38 35 96 50 104 15 31 43 105 114 57 45 19 88 33 8 42 81 11 49 108 61 64 40 70 109 32 36 7 24 66 97 39 53 23 41 113 87 101 34 106 73 29 25 117</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\interrupts.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 20 42 82 29 37 106 76 57 89 59 101 86 119 88 25 33 71 84 65 55 102 13 113 45 19 41 81 8 35 96 50 104 15 31 43 105 75 87 34 90 11 73 23 49 62 18 79 38 117 116 83 54 27 21 108 61 64 40 70 109 32 36 7 24 66 97 39 48 53 114 67</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82 41 20 19 76 29 42 119 64 66 83 88 13 113 44 81 45 8 49 102 70 32 24 97 35 89 53 23 48 11 33 18 71 79 38 25 117 57 108 61 40 109 36 7 39 90 86 114 67 116 54 27 75 21 96 50 104 15 31 84 59 37 65 43 55 105 87 101 34 106 73</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\IAP_01.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 26 110 58 98 22 68 72 111 9 56 69 46 92 51</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
