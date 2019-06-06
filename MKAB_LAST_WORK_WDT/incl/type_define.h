@@ -1,3 +1,5 @@
+
+
 //******************************************************************************
 //**
 //**
@@ -5,36 +7,10 @@
 #ifndef TIPE_DEF_H
   #define TIPE_DEF_H
 //******************************************************************************
-#define PARITY_NONE 0
-#define PARITY_ODD  1// нечётный
-#define PARITY_EVEN 2// чётный
-#define SMCLK    8000
-
-    //#define BOOT_MEM_START        0x1080 //адрес начала памяти констант(загрузчик)
-    //#define TMP_BOOT_MEM_START    0x1000 //адрес начала временной памяти констант(загрузчик)
-    //#define CORE_CLK              SMCLK
-
-#define BOOT_MEM_START        0x0800F400 //адрес начала памяти констант(загрузчик)
-#define TMP_BOOT_MEM_START    0x0800F800 //адрес начала временной памяти констант(загрузчик)
-#define PARAMS_ADDR           0x0800EC00
-#define TMP_PARAMS_ADDR       0x0800F000
-#define CORE_CLK              SMCLK
-
-#define STX ':'
-#define ETX 0x0A
-
-#define START_COIL_STATUS_ADDR          100
-#define START_DISCRETE_INPUTS_ADDR      200
-#define START_HOLDIG_REGISTERS_ADDR     300
-#define START_INPUT_REGISTERS_ADDR      400
-
-#define BAUD_RATE_IND   0
-#define DATA_BITS_IND   1
-#define STOP_BITS_IND   2
-#define PARITY_MODE_IND 3
-#define TIMEOUT_IND     4
-
-#define RESTART_TIMEOUT 5000 //5 sec
+//  #include <string>
+//  #include <vector>
+//  #include <Classes_def.h>
+  //#include <stm32l1xx.h>
 //******************************************************************************
 typedef unsigned char  Byte;
 typedef unsigned short   Word;
@@ -103,8 +79,12 @@ typedef enum
 typedef enum  
 {
     OK_IND = 0,
+    PASW_ER_IND,
+    ID_ER_IND,
+    CMD_ER_IND,
+    CRC_ER_IND,
     UNKNOWN_ER_IND,
-    APPL_CRC_ERROR_IND,
+    NO_DATA
 }ERROR_IND;
 //****************************************************************************** 
 typedef enum  
@@ -186,50 +166,25 @@ struct T_ADC_AKB
 //******************************************************************************
 //Параметры протокола устройства
 //******************************************************************************
-typedef enum  
-{
-    BOOT_FLG  = 0,
-    DEV_ADDR,           //1
-    TIME_OUT,           //2
-    BOUD_RATE,          //3
-    BYTES_CNT,          //4
-    PLC_TIME_OUT,       //5
-    PLC_BOUD_RATE,      //6
-    PLC_BYTES_CNT,      //7
-    MIN_BYTE_LEN,       //8
-    PLC_MIN_BYTE_LEN,   //9
-    DEV_CURR_VER,       //10
-    DEV_SUB_VER,        //11
-    SERIAL_LOW,         //12
-    SERIAL_HI           //13
-
-}PARAMETERS;
-//******************************************************************************
+#pragma pack(1)
 struct Data_Params
 {
-        Word DATA[20];
-    
-        Word transnite_plc_teimeout_m;
-        Word transnite_plc_teimeout_s;
-        Word resive_byte_temeout;  
-        Word transmite_485_temeout;
+        Byte  DevAddress[8];//адрес устройства
+        Byte  PassWord[9];      
+        Byte  Unit_Type[9];
         
-        Word size_pack_plc;
-        Word master_slave;              // 0 - slave, 1- master
+        DWord MAIN_timeout;   //межбайтовый таймаут 
+        DWord MAIN_BOUD_RATE; //скорость передачи     
         
-        Word my_address;
+        Byte bReserved[20];
+        Word wReserved[10];
         
-        Word filter;                    // 0 - off, 1- on
-        Word sensitive;                 // 0 - off, 1- on
-        Word deviation;                 // 0 - off, 1- on
-        Word baudrate;
-        Word version;
-        Word ping_timer;
-        
+        long Serial;
         
         Byte CRC_SUM;
-        Byte KeyByte;        
+        Byte  KeyByte;      
 };
+#pragma pack()
 //******************************************************************************
 struct Boot_Params
 {
@@ -257,8 +212,56 @@ struct Boot_Params
      
         Byte  KeyByte;      
 };
+//******************************************************************************
+//******************************************************************************
+//Параметры Калибровки устройства
+//******************************************************************************
+#pragma pack(1)
+struct TCalibrListConfig
+{
+        float CalVolt[8];
+        bool IsFistStart;                 
+        Word  CRC_SUM;
+        Byte  KeyByte;         
+};
+#pragma pack()
+//******************************************************************************
+//Параметры Работы устройства
+//******************************************************************************
+#pragma pack(1)
+struct TTaskListConfig
+{
+        Word          AdcMultiplier;
+        Word          ReglamentTime;        //Период регламента   
+        float         CalVolt[8];
+        bool          IsFistStart;         //
+        Word          CRC_SUM;
+        Byte          KeyByte;      
+};
+#pragma pack()
 
-//enum DETECTING_RESULT{NO_RESULT=0,MAX_DETECTED,MIN_DETECTED};
+//******************************************************************************
+//Параметры ниверсальные
+//******************************************************************************
+#pragma pack(1)
+struct TUniversalConfig
+{
+        Data_Params        PARAMS;
+        TTaskListConfig    TASK_PARAMS;
+        TCalibrListConfig  CALIBR_PARAMS;
+        
+        
+        bool          IsFistStart;         //
+        Word          CRC_SUM;
+        Byte          KeyByte;      
+};
+#pragma pack()
+
+
+//******************************************************************************
+//******************************************************************************
+
+enum DETECTING_RESULT{NO_RESULT=0,MAX_DETECTED,MIN_DETECTED};
 //******************************************************************************
 //******************************************************************************
 typedef struct commtim
