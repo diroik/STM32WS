@@ -889,7 +889,7 @@ TCmd* TCmd_SetCfg::CMD_Execute(void* p1,void* p2)
   
  Data_Params      Params        = *TObject::PtrToConstants;
  TTaskListConfig  TaskParams    = *TObjectTask::TaskListConfig;
- TCalibrListConfig CalibrParams = *TObjectCalibr::CalibrListConfig;
+ //TCalibrListConfig CalibrParams = *TObjectCalibr::CalibrListConfig;
  
     Tlist<TEt*> Equipments;
     GetTypes( BaseCMD->LastData, Equipments);
@@ -1047,14 +1047,14 @@ TCmd* TCmd_SetCfg::CMD_Execute(void* p1,void* p2)
                       if( PowerMetrManager != NULL && PowerMetrManager->PowerMetrs != NULL )
                       {
                         float koef = atof( (char*)CurrPt->Value[0].c_str() );
-                        CalibrParams.CalVolt[CurrPt->PName-1] = koef;
-                        CalibrFlag = true;                        
+                        TaskParams.CalVolt[CurrPt->PName-1] = koef;
+                        taskFlag = true;                        
                       }
                     }
                     else
                     { 
                       this->BaseCMD->LastErrorIndex = UNKNOWN_ER_IND;
-                      CalibrFlag = false;
+                      taskFlag = false;
                     }
                   }
                }
@@ -1101,14 +1101,16 @@ TCmd* TCmd_SetCfg::CMD_Execute(void* p1,void* p2)
     { 
         TObjectTask::Save_TaskConfigInFlash(&TaskParams);
         SetNeedReset();
-        SetNeedAnswer();
+        SetNeedAnswer();   
     }  
+    /*//больше не используется для хранения калибровок....
     if( CalibrFlag == true )//all ok - save in memory
     { 
         TObjectCalibr::Save_CalibrConfigInFlash(&CalibrParams);
         SetNeedReset();
         SetNeedAnswer();
-    }
+    }*/
+    
     
     
     ClearLastData();
