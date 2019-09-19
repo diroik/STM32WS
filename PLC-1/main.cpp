@@ -36,8 +36,8 @@ TFifo<TBuffer*>          FromPlcToRS485(10);
 TFifo<TBuffer*>          FromRS485ToPlc(10);
 
 
-TUsartPort0             RS485Port(8);
-TUsartPort3             PlcPort(8);
+TUsartPort0             RS485Port(17);
+TUsartPort3             PlcPort(17);
 TSpiPort0               SpiPort; 
 //debug
 

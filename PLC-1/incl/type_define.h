@@ -190,14 +190,14 @@ typedef enum
 {
     BOOT_FLG  = 0,
     DEV_ADDR,           //1
-    TIME_OUT,           //2
-    BOUD_RATE,          //3
-    BYTES_CNT,          //4
-    PLC_TIME_OUT,       //5
-    PLC_BOUD_RATE,      //6
-    PLC_BYTES_CNT,      //7
-    MIN_BYTE_LEN,       //8
-    PLC_MIN_BYTE_LEN,   //9
+    TIME_OUT,           //2 = 50
+    BOUD_RATE,          //3 = 9600
+    BYTES_CNT,          //4 = 200
+    PLC_TIME_OUT,       //5 = 200
+    PLC_BOUD_RATE,      //6 = 600(1200)
+    PLC_BYTES_CNT,      //7 = 250
+    MIN_BYTE_LEN,       //8 = 2
+    PLC_MIN_BYTE_LEN,   //9 = 10
     DEV_CURR_VER,       //10
     DEV_SUB_VER,        //11
     SERIAL_LOW,         //12
