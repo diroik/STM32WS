@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "D:\$PROJECTS\Microcontrollers\$STM32\MKAB_MGF_F\settings\MKAB-12.Debug.general.xcl" --backend -f "D:\$PROJECTS\Microcontrollers\$STM32\MKAB_MGF_F\settings\MKAB-12.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_LAST_WORK_WDT\settings\MKAB-12.Debug.general.xcl" --backend -f "D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_LAST_WORK_WDT\settings\MKAB-12.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "D:\$PROJECTS\Microcontrollers\$STM32\MKAB_MGF_F\settings\MKAB-12.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\$PROJECTS\Microcontrollers\$STM32\MKAB_MGF_F\settings\MKAB-12.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_LAST_WORK_WDT\settings\MKAB-12.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_LAST_WORK_WDT\settings\MKAB-12.Debug.driver.xcl" 
 }

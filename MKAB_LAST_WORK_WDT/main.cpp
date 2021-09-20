@@ -63,7 +63,7 @@ pFunction Jump_To_Application;
 //******************************************************************************
 
 //#pragma optimize=z none
-__task main (void)
+int main (void)
 {
   __set_PRIMASK(1);           //disable all system interrupts
   SCB->VTOR = NVIC_VectTab_FLASH | (0x08006400 & (uint32_t)0x1FFFFF80);

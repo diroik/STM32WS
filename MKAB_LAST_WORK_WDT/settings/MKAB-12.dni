@@ -30,7 +30,7 @@ ShowSource=1
 Freq=10000000
 MultiCoreRunAll=1
 [DebugChecksum]
-Checksum=1656495903
+Checksum=-1107062986
 [Exceptions]
 StopOnUncaught=_ 0
 StopOnThrow=_ 0
@@ -122,7 +122,8 @@ mode=0
 Bp0=_ 0 "EMUL_CODE" "0x08000000" 0 0 1 "" 0 "" 0
 Bp1=_ 0 "EMUL_CODE" "0x08007400" 0 0 1 "" 0 "" 0
 Bp2=_ 1 "EMUL_CODE" "{$PROJ_DIR$\src\AdvClasses.cpp}.615.4" 0 0 1 "" 0 "" 0
-Count=3
+Bp3=_ 1 "EMUL_CODE" "{$PROJ_DIR$\main.cpp}.110.9" 0 0 1 "" 0 "" 0
+Count=4
 [Aliases]
 Count=0
 SuppressDialog=0

@@ -645,27 +645,28 @@ bool TObjectTask::RestoreMemParams(void)
 //=======================================
 bool TObjectCalibr::Save_CalibrConfigInFlash(TCalibrListConfig *CalibrListConfig)
 {
-//  //Перезапись всей страницы с временным(защитным) хранилищем в другой странице 
-// Word         Len;
-// Byte        *Tmp                  = (Byte *)CalibrListConfig;  //взяли указатель 
-//  
-//  Len = sizeof(*CalibrListConfig); 
-//  CalibrListConfig->CRC_SUM = TObjectCalibr::CalcCRC(CalibrListConfig);
-//  
-//  for(Word i=0; i<3; i++)
-//  {
-//    TObject::WriteBufToPage((Byte const*)&TMP_CALIBR_PARAMS, Tmp, Len-1 );  //записали во временную(защитную) память
-//    TObject::WriteBufToPage((Byte const*)&CALIBR_PARAMS    , Tmp, Len-1 );  //записали куда надо
-//  
-//    if(TObject::VerifyMemory((Byte const*)&CALIBR_PARAMS,Tmp, Len-1))
-//    {//удалили временную запись 
-//      TObject::ClrFlashSegment( (Byte const*)&TMP_CALIBR_PARAMS );
-//      return true; 
-//    }
-//    else
-//    { continue;}
-//  }
-  return false;
+ //Вся процедура была закомментирована в версии 4.1....  
+ /*//Перезапись всей страницы с временным(защитным) хранилищем в другой странице 
+ Word         Len;
+ Byte        *Tmp                  = (Byte *)CalibrListConfig;  //взяли указатель 
+  
+  Len = sizeof(*CalibrListConfig); 
+  CalibrListConfig->CRC_SUM = TObjectCalibr::CalcCRC(CalibrListConfig);
+  
+  for(Word i=0; i<3; i++)
+  {
+    TObject::WriteBufToPage((Byte const*)&TMP_CALIBR_PARAMS, Tmp, Len-1 );  //записали во временную(защитную) память
+    TObject::WriteBufToPage((Byte const*)&CALIBR_PARAMS    , Tmp, Len-1 );  //записали куда надо
+  
+    if(TObject::VerifyMemory((Byte const*)&CALIBR_PARAMS,Tmp, Len-1))
+    {//удалили временную запись 
+      TObject::ClrFlashSegment( (Byte const*)&TMP_CALIBR_PARAMS );
+      return true; 
+    }
+    else
+    { continue;}
+  }
+  return false;*/
 }
 //=============================================================================
 //  

@@ -4,7 +4,13 @@
         <path>$WS_DIR$\IAR_Powercharger\IAP_01.ewp</path>
     </project>
     <project>
+        <path>$WS_DIR$\MKAB_LAST_WORK_WDT\MKAB-12.ewp</path>
+    </project>
+    <project>
         <path>$WS_DIR$\PLC-1\plc1.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\..\Примеры\$STM32\STM32CubeMX_projects\stm32l100RCTx_GSM\EWARM\stm32l100RCTx_GSM.ewp</path>
     </project>
     <batchBuild />
 </workspace>
