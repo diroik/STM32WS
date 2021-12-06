@@ -9,8 +9,5 @@
     <project>
         <path>$WS_DIR$\PLC-1\plc1.ewp</path>
     </project>
-    <project>
-        <path>$WS_DIR$\..\..\Примеры\$STM32\STM32CubeMX_projects\stm32l100RCTx_GSM\EWARM\stm32l100RCTx_GSM.ewp</path>
-    </project>
     <batchBuild />
 </workspace>

@@ -5,8 +5,8 @@
 //#include <Class_Tamplate.h>
 #include <Classes_def.h>
 #include <type_define.h>
-//#include <new>
-//#include <string>
+#include <new>
+#include <string>
 #include <list>
 //#include <deque>
 #include <iostream>
