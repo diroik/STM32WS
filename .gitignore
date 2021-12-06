@@ -35,3 +35,9 @@
 /PLC-1/Release
 /IAR_Powercharger/Debug
 /IAR_Powercharger/Release
+/MKAB_BOOT_STM32F100/Debug
+/MKAB_BOOT_STM32Lxx/Debug
+/MKAB_STM32F100/Debug
+/MKAB_STM32F100/Release
+/MKAB_STM32Lxx/Release
+/MKAB_STM32Lxx/Debug

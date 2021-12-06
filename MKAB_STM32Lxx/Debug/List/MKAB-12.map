@@ -1,0 +1,1183 @@
+###############################################################################
+#
+# IAR ELF Linker V7.80.3.12102/W32 for ARM                11/Nov/2021  16:55:36
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Exe\MKAB-12.out
+#    Map file     =  
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\List\MKAB-12.map
+#    Command line =  
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\AdvClasses.o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\Classes.o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\Init.o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\interrupts.o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\main.o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\misc.o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\PowerMetr.o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\startup_stm32l1xx_md.o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\stm32l1xx_adc.o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\stm32l1xx_flash.o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\stm32l1xx_gpio.o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\stm32l1xx_it.o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\stm32l1xx_rcc.o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\stm32l1xx_usart.o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj\system_stm32l1xx.o
+#        -o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Exe\MKAB-12.out
+#        --map
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\List\MKAB-12.map
+#        --log call_graph --log_file
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\List\MKAB-12.log
+#        --config
+#        D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\lib\MKAB-12.icf
+#        --entry __iar_program_start --inline --merge_duplicate_sections --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__CPP_Exceptions              = Disabled
+__CPP_Language                = C++
+__Heap_Handler                = DLMalloc
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+__dlib_has_iterator_debugging = 0
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08006400 { ro section .intvec };
+"P1":  place in [from 0x08006400 to 0x0800ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x200027ff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section             Kind        Address    Size  Object
+  -------             ----        -------    ----  ------
+"A0":                                       0x1e8
+  .intvec             const    0x08006400    0xf4  AdvClasses.o [1]
+  .intvec             ro code  0x080064f4    0xf4  startup_stm32l1xx_md.o [1]
+                             - 0x080065e8   0x1e8
+
+"P1":                                      0x8a98
+  .text               ro code  0x080065e8  0x3854  AdvClasses.o [1]
+  .text               ro code  0x08009e3c    0x40  AdvClasses.o [1]
+  .text               ro code  0x08009e7c    0x46  cxxabi.o [4]
+  .rodata             const    0x08009ec2     0x2  AdvClasses.o [1]
+  .text               ro code  0x08009ec4    0x24  AdvClasses.o [1]
+  .text               ro code  0x08009ee8    0x8c  AdvClasses.o [1]
+  .text               ro code  0x08009f74    0x24  newop_0.o [4]
+  .text               ro code  0x08009f98    0x1a  AdvClasses.o [1]
+  .text               ro code  0x08009fb2    0x12  AdvClasses.o [1]
+  .text               ro code  0x08009fc4     0xa  delop_0.o [4]
+  .rodata             const    0x08009fce     0x2  AdvClasses.o [1]
+  .text               ro code  0x08009fd0    0x28  AdvClasses.o [1]
+  .text               ro code  0x08009ff8    0x76  ABImemcpy_unaligned.o [6]
+  .text               ro code  0x0800a06e    0x22  AdvClasses.o [1]
+  .text               ro code  0x0800a090     0xe  AdvClasses.o [1]
+  .text               ro code  0x0800a09e    0x32  AdvClasses.o [1]
+  .text               ro code  0x0800a0d0    0x28  AdvClasses.o [1]
+  .text               ro code  0x0800a0f8    0x1a  AdvClasses.o [1]
+  .text               ro code  0x0800a112    0x10  AdvClasses.o [1]
+  .text               ro code  0x0800a122     0xc  AdvClasses.o [1]
+  .text               ro code  0x0800a12e     0xa  AdvClasses.o [1]
+  .text               ro code  0x0800a138    0x1a  AdvClasses.o [1]
+  .text               ro code  0x0800a152    0x20  AdvClasses.o [1]
+  .text               ro code  0x0800a172    0x22  AdvClasses.o [1]
+  .text               ro code  0x0800a194    0x3c  AdvClasses.o [1]
+  .text               ro code  0x0800a1d0    0x48  AdvClasses.o [1]
+  .text               ro code  0x0800a218    0x2c  AdvClasses.o [1]
+  .text               ro code  0x0800a244     0xe  AdvClasses.o [1]
+  .text               ro code  0x0800a252    0x18  AdvClasses.o [1]
+  .text               ro code  0x0800a26a    0x10  AdvClasses.o [1]
+  .text               ro code  0x0800a27a     0x4  AdvClasses.o [1]
+  .text               ro code  0x0800a27e    0x2a  AdvClasses.o [1]
+  .text               ro code  0x0800a2a8    0x36  AdvClasses.o [1]
+  .rodata             const    0x0800a2de     0x1  AdvClasses.o [1]
+  .text               ro code  0x0800a2e0    0x40  AdvClasses.o [1]
+  .text               ro code  0x0800a320    0x28  AdvClasses.o [1]
+  .text               ro code  0x0800a348   0x14c  xstod.o [5]
+  .text               ro code  0x0800a494    0x90  DblToFlt.o [5]
+  .text               ro code  0x0800a524    0x30  AdvClasses.o [1]
+  .text               ro code  0x0800a554    0x26  AdvClasses.o [1]
+  .text               ro code  0x0800a57a    0x70  AdvClasses.o [1]
+  .text               ro code  0x0800a5ea    0x26  AdvClasses.o [1]
+  .text               ro code  0x0800a610    0x26  AdvClasses.o [1]
+  .text               ro code  0x0800a636    0x26  AdvClasses.o [1]
+  .text               ro code  0x0800a65c    0x56  AdvClasses.o [1]
+  .text               ro code  0x0800a6b2     0xa  AdvClasses.o [1]
+  .text               ro code  0x0800a6bc   0x19c  xstoul.o [3]
+  .text               ro code  0x0800a858    0x3c  AdvClasses.o [1]
+  .text               ro code  0x0800a894    0x44  FltToS32.o [5]
+  .text               ro code  0x0800a8d8    0x32  I32ToFlt.o [5]
+  .text               ro code  0x0800a90c    0xe6  FltSub.o [5]
+  .text               ro code  0x0800a9f4    0x4e  FltToDbl.o [5]
+  .text               ro code  0x0800aa44    0x4c  DblToI32.o [5]
+  .text               ro code  0x0800aa90     0x6  ABImemclr4.o [6]
+  .text               ro code  0x0800aa96    0x1e  AdvClasses.o [1]
+  .text               ro code  0x0800aab4    0x30  I32ToDbl.o [5]
+  .text               ro code  0x0800aae4    0x2e  DblCmpGe.o [5]
+  .text               ro code  0x0800ab14   0x256  DblDiv.o [5]
+  .text               ro code  0x0800ad6c   0x1a2  DblMul.o [5]
+  .text               ro code  0x0800af10    0x20  DblCmpEq.o [5]
+  .text               ro code  0x0800af30    0x6a  AdvClasses.o [1]
+  .text               ro code  0x0800af9a    0x1e  AdvClasses.o [1]
+  .text               ro code  0x0800afb8     0xc  AdvClasses.o [1]
+  .text               ro code  0x0800afc4     0xc  AdvClasses.o [1]
+  .text               ro code  0x0800afd0    0x2a  AdvClasses.o [1]
+  .text               ro code  0x0800affa     0x8  newaop_0.o [4]
+  .text               ro code  0x0800b002     0x4  delaop_0.o [4]
+  .text               ro code  0x0800b008    0x24  AdvClasses.o [1]
+  .text               ro code  0x0800b02c    0x24  AdvClasses.o [1]
+  .text               ro code  0x0800b050    0x24  AdvClasses.o [1]
+  .text               ro code  0x0800b074    0x24  AdvClasses.o [1]
+  .text               ro code  0x0800b098    0x24  AdvClasses.o [1]
+  .text               ro code  0x0800b0bc    0x28  AdvClasses.o [1]
+  .text               ro code  0x0800b0e4    0x50  AdvClasses.o [1]
+  .text               ro code  0x0800b134    0x14  memset.o [3]
+  .text               ro code  0x0800b148     0x4  AdvClasses.o [1]
+  .text               ro code  0x0800b14c    0x24  FltCmpLe.o [5]
+  .text               ro code  0x0800b170    0x58  AdvClasses.o [1]
+  .text               ro code  0x0800b1c8    0x30  AdvClasses.o [1]
+  .text               ro code  0x0800b1f8    0xdc  AdvClasses.o [1]
+  .text               ro code  0x0800b2d4     0xe  AdvClasses.o [1]
+  .text               ro code  0x0800b2e4    0xd8  FltMul.o [5]
+  .text               ro code  0x0800b3bc     0xc  cstartup_M.o [6]
+  .text               ro code  0x0800b3c8    0x94  cppinit.o [3]
+  .text               ro code  0x0800b45c    0x10  AdvClasses.o [1]
+  .text               ro code  0x0800b46c     0x4  xpurevirtual.o [3]
+  .text               ro code  0x0800b470  0x14f4  dlmalloc.o [3]
+  .text               ro code  0x0800c964    0x36  strlen.o [6]
+  .text               ro code  0x0800c99a    0x50  AdvClasses.o [1]
+  .text               ro code  0x0800c9ea     0xc  AdvClasses.o [1]
+  .text               ro code  0x0800c9f6    0x4c  AdvClasses.o [1]
+  .text               ro code  0x0800ca42    0x30  AdvClasses.o [1]
+  .text               ro code  0x0800ca72    0x22  AdvClasses.o [1]
+  .text               ro code  0x0800ca94    0x6a  AdvClasses.o [1]
+  .text               ro code  0x0800cafe    0x4a  AdvClasses.o [1]
+  .text               ro code  0x0800cb48    0x64  AdvClasses.o [1]
+  .text               ro code  0x0800cbac    0x1c  AdvClasses.o [1]
+  .text               ro code  0x0800cbc8     0xa  AdvClasses.o [1]
+  .text               ro code  0x0800cbd4    0x60  AdvClasses.o [1]
+  .text               ro code  0x0800cc34    0x5c  AdvClasses.o [1]
+  .text               ro code  0x0800cc90   0x11e  xstopfx.o [3]
+  .text               ro code  0x0800cdb0   0x1ac  xstoflt.o [3]
+  .text               ro code  0x0800cf5c    0xe8  DblAdd.o [5]
+  .rodata             const    0x0800d044    0x44  AdvClasses.o [1]
+  .text               ro code  0x0800d088   0x200  xdtento.o [5]
+  .text               ro code  0x0800d288   0x200  xstoxflt.o [3]
+  .text               ro code  0x0800d488   0x10c  xdscale.o [5]
+  .text               ro code  0x0800d594    0x26  AdvClasses.o [1]
+  .text               ro code  0x0800d5ba    0x74  AdvClasses.o [1]
+  .text               ro code  0x0800d62e     0x8  string2.o [4]
+  .text               ro code  0x0800d636    0x56  AdvClasses.o [1]
+  .text               ro code  0x0800d68c    0x12  AdvClasses.o [1]
+  .text               ro code  0x0800d69e    0x28  AdvClasses.o [1]
+  .text               ro code  0x0800d6c8    0x58  memchr.o [6]
+  .text               ro code  0x0800d720     0xc  errno.o [3]
+  .text               ro code  0x0800d72c    0x60  AdvClasses.o [1]
+  .text               ro code  0x0800d78c    0x84  FltAdd.o [5]
+  .text               ro code  0x0800d810    0x32  ABImemset48.o [6]
+  .rodata             const    0x0800d844    0x44  AdvClasses.o [1]
+  .text               ro code  0x0800d888   0x848  pow.o [5]
+  .text               ro code  0x0800e0d0     0xa  AdvClasses.o [1]
+  .text               ro code  0x0800e0da     0x4  AdvClasses.o [1]
+  .text               ro code  0x0800e0e0    0x66  ABImemset.o [6]
+  .text               ro code  0x0800e148    0xfc  FltDiv.o [5]
+  .text               ro code  0x0800e244    0x1a  cmain.o [6]
+  .text               ro code  0x0800e25e     0x6  abort.o [3]
+  .text               ro code  0x0800e264    0x2c  xgetmemchunk.o [3]
+  .text               ro code  0x0800e290     0xc  AdvClasses.o [1]
+  .text               ro code  0x0800e29c    0x14  typeinfo.o [4]
+  .text               ro code  0x0800e2b0    0x18  AdvClasses.o [1]
+  .text               ro code  0x0800e2c8    0x18  AdvClasses.o [1]
+  .text               ro code  0x0800e2e0   0x180  DblSub.o [5]
+  .text               ro code  0x0800e460    0x44  xdnorm.o [5]
+  .text               ro code  0x0800e4a4    0x56  xdunscal.o [5]
+  .text               ro code  0x0800e4fa    0x66  AdvClasses.o [1]
+  .text               ro code  0x0800e560     0xc  AdvClasses.o [1]
+  .text               ro code  0x0800e56c     0x2  AdvClasses.o [1]
+  .text               ro code  0x0800e56e    0x7e  xdint.o [5]
+  .text               ro code  0x0800e5ec    0x2e  DblCmpLe.o [5]
+  .text               ro code  0x0800e61c    0xac  xlog.o [5]
+  .text               ro code  0x0800e6c8   0x2bc  xexp.o [5]
+  .text               ro code  0x0800e984    0x62  memcmp_unaligned.o [6]
+  .text               ro code  0x0800e9e8    0x28  data_init.o [6]
+  .text               ro code  0x0800ea10     0x4  exit.o [3]
+  .text               ro code  0x0800ea14     0xc  XXexit.o [6]
+  .text               ro code  0x0800ea20    0x78  ABImemmove_unaligned.o [6]
+  .text               ro code  0x0800ea98    0x3c  AdvClasses.o [1]
+  .text               ro code  0x0800ead4    0x32  xdtest.o [5]
+  .text               ro code  0x0800eb08     0xe  cexit.o [6]
+  .text               ro code  0x0800eb18    0x5c  AdvClasses.o [1]
+  .text               ro code  0x0800eb74    0x60  AdvClasses.o [1]
+  .text               ro code  0x0800ebd4    0x48  AdvClasses.o [1]
+  .text               ro code  0x0800ec1c    0x40  AdvClasses.o [1]
+  .text               ro code  0x0800ec5c    0x40  zero_init3.o [6]
+  .text               ro code  0x0800ec9c    0x38  packbits_init_single.o [6]
+  .rodata             const    0x0800ecd4    0x30  AdvClasses.o [1]
+  .rodata             const    0x0800ed04    0x30  AdvClasses.o [1]
+  .rodata             const    0x0800ed34    0x30  AdvClasses.o [1]
+  .rodata             const    0x0800ed64    0x30  AdvClasses.o [1]
+  .rodata             const    0x0800ed94    0x30  AdvClasses.o [1]
+  .rodata             const    0x0800edc4    0x30  AdvClasses.o [1]
+  .iar.init_table     const    0x0800edf4    0x24  - Linker created -
+  .text               ro code  0x0800ee18    0x20  cmain_call_ctors.o [6]
+  .rodata             const    0x0800ee38    0x18  AdvClasses.o [1]
+  .rodata             const    0x0800ee50    0x14  AdvClasses.o [1]
+  .rodata             const    0x0800ee64    0x14  AdvClasses.o [1]
+  .rodata             const    0x0800ee78    0x14  AdvClasses.o [1]
+  .rodata             const    0x0800ee8c    0x14  AdvClasses.o [1]
+  .rodata             const    0x0800eea0    0x14  AdvClasses.o [1]
+  .rodata             const    0x0800eeb4    0x10  AdvClasses.o [1]
+  .rodata             const    0x0800eec4    0x10  AdvClasses.o [1]
+  .rodata             const    0x0800eed4    0x10  AdvClasses.o [1]
+  .rodata             const    0x0800eee4    0x10  AdvClasses.o [1]
+  .rodata             const    0x0800eef4    0x10  AdvClasses.o [1]
+  .rodata             const    0x0800ef04    0x10  AdvClasses.o [1]
+  .rodata             const    0x0800ef14    0x10  AdvClasses.o [1]
+  .rodata             const    0x0800ef24    0x10  typeinfo.o [4]
+  .rodata             const    0x0800ef34    0x10  typeinfo.o [4]
+  .rodata             const    0x0800ef44    0x10  typeinfo.o [4]
+  .rodata             const    0x0800ef54    0x10  typeinfo.o [4]
+  .text               ro code  0x0800ef64    0x10  startup_stm32l1xx_md.o [1]
+  .text               ro code  0x0800ef74     0xe  AdvClasses.o [1]
+  .rodata             const    0x0800ef84     0xc  AdvClasses.o [1]
+  .rodata             const    0x0800ef90     0xc  AdvClasses.o [1]
+  .rodata             const    0x0800ef9c     0xc  AdvClasses.o [1]
+  .rodata             const    0x0800efa8     0xc  AdvClasses.o [1]
+  .rodata             const    0x0800efb4     0xc  AdvClasses.o [1]
+  .rodata             const    0x0800efc0     0xc  AdvClasses.o [1]
+  .text               ro code  0x0800efcc     0xc  AdvClasses.o [1]
+  .rodata             const    0x0800efd8     0x8  AdvClasses.o [1]
+  .rodata             const    0x0800efe0     0x8  AdvClasses.o [1]
+  .rodata             const    0x0800efe8     0x8  AdvClasses.o [1]
+  .rodata             const    0x0800eff0     0x8  AdvClasses.o [1]
+  .rodata             const    0x0800eff8     0x8  AdvClasses.o [1]
+  .rodata             const    0x0800f000     0x8  AdvClasses.o [1]
+  .rodata             const    0x0800f008     0x8  AdvClasses.o [1]
+  .rodata             const    0x0800f010     0x8  AdvClasses.o [1]
+  .rodata             const    0x0800f018     0x8  AdvClasses.o [1]
+  .rodata             const    0x0800f020     0x8  AdvClasses.o [1]
+  .rodata             const    0x0800f028     0x8  AdvClasses.o [1]
+  .rodata             const    0x0800f030     0x8  AdvClasses.o [1]
+  .rodata             const    0x0800f038     0x8  AdvClasses.o [1]
+  .rodata             const    0x0800f040     0x8  AdvClasses.o [1]
+  .text               ro code  0x0800f048     0x8  AdvClasses.o [1]
+  .rodata             const    0x0800f050     0x4  AdvClasses.o [1]
+  .text               ro code  0x0800f054     0x4  startup_stm32l1xx_md.o [1]
+  SHT$$PREINIT_ARRAY           0x0800f058     0x0  <Block>
+  SHT$$INIT_ARRAY              0x0800f058     0x4  <Block>
+    .init_array       const    0x0800f058     0x4  AdvClasses.o [1]
+  .text               ro code  0x0800f05c     0x0  cstart_call_dtors.o [6]
+  .rodata             const    0x0800f05c     0x0  zero_init3.o [6]
+  .rodata             const    0x0800f05c     0x0  packbits_init_single.o [6]
+  Initializer bytes   const    0x0800f05c    0x24  <for P2-1>
+                             - 0x0800f080  0x8a98
+
+Absolute sections, part 1 of 2:              0x8c
+  .rodata             const    0x08080000    0x8c  AdvClasses.o [1]
+                             - 0x0808008c    0x8c
+
+Absolute sections, part 2 of 2:              0x8c
+  .rodata             const    0x08080200    0x8c  AdvClasses.o [1]
+                             - 0x0808028c    0x8c
+
+"P2", part 1 of 3:                           0xa4
+  P2-1                         0x20000000    0xa4  <Init block>
+    .data             inited   0x20000000    0x80  AdvClasses.o [1]
+    .data             inited   0x20000080     0x4  AdvClasses.o [1]
+    .data             inited   0x20000084    0x1c  AdvClasses.o [1]
+    __DLIB_PERTHREAD  inited   0x200000a0     0x4  errno.o [3]
+                             - 0x200000a4    0xa4
+
+"P2", part 2 of 3:                         0x2124
+  .iar.dynexit                 0x200000a4   0x1e0  <Block>
+    .iar.dynexit      uninit   0x200000a4     0xc  cppinit.o [3]
+    .iar.dynexit      uninit   0x200000b0   0x1d4  <Block tail>
+  CSTACK                       0x20000288   0x7d0  <Block>
+    CSTACK            uninit   0x20000288   0x7d0  <Block tail>
+  HEAP                         0x20000a58  0x1770  <Block>
+    HEAP              uninit   0x20000a58  0x1770  <Block tail>
+                             - 0x200021c8  0x2124
+
+"P2", part 3 of 3:                          0x3ac
+  .bss                zero     0x200021c8   0x1d8  dlmalloc.o [3]
+  .bss                zero     0x200023a0    0xd4  AdvClasses.o [1]
+  .bss                zero     0x20002474    0x6c  AdvClasses.o [1]
+  .bss                zero     0x200024e0    0x68  AdvClasses.o [1]
+  .bss                zero     0x20002548    0x18  dlmalloc.o [3]
+  .bss                zero     0x20002560     0x4  cppinit.o [3]
+  .bss                zero     0x20002564     0x4  cppinit.o [3]
+  .bss                zero     0x20002568     0x4  new.o [4]
+  .bss                zero     0x2000256c     0x4  xgetmemchunk.o [3]
+  .bss                zero     0x20002570     0x1  AdvClasses.o [1]
+  .bss                zero     0x20002571     0x1  AdvClasses.o [1]
+  .bss                zero     0x20002572     0x1  AdvClasses.o [1]
+                             - 0x20002573   0x3ab
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x3ab:
+          0x200021c8  0x3ab
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x24 (21% of destination):
+          0x0800f05c   0x24
+    1 destination range, total size 0xa4:
+          0x20000000   0xa4
+
+Extra (__iar_cstart_call_ctors)
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data  ro data
+                                                        (abs)
+    ------                  -------  -------  -------  -------
+D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj: [1]
+    AdvClasses.o             18 620    1 136      587      280
+    startup_stm32l1xx_md.o      264
+    ----------------------------------------------------------
+    Total:                   18 884    1 136      587      280
+
+command line: [2]
+    ----------------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    abort.o                       6
+    cppinit.o                   148                20
+    dlmalloc.o                5 364               496
+    errno.o                      12        1        4
+    exit.o                        4
+    memset.o                     20
+    xgetmemchunk.o               44                 4
+    xpurevirtual.o                4
+    xstoflt.o                   428
+    xstopfx.o                   286
+    xstoul.o                    412
+    xstoxflt.o                  512
+    ----------------------------------------------------------
+    Total:                    7 240        1      524
+
+dlpp7M_tl_nc.a: [4]
+    cxxabi.o                     70
+    delaop_0.o                    4
+    delop_0.o                    10
+    new.o                                           4
+    newaop_0.o                    8
+    newop_0.o                    36
+    string2.o                     8
+    typeinfo.o                   20       64
+    ----------------------------------------------------------
+    Total:                      156       64        4
+
+m7M_tl.a: [5]
+    DblAdd.o                    232
+    DblCmpEq.o                   32
+    DblCmpGe.o                   46
+    DblCmpLe.o                   46
+    DblDiv.o                    598
+    DblMul.o                    418
+    DblSub.o                    384
+    DblToFlt.o                  144
+    DblToI32.o                   76
+    FltAdd.o                    132
+    FltCmpLe.o                   36
+    FltDiv.o                    252
+    FltMul.o                    216
+    FltSub.o                    230
+    FltToDbl.o                   78
+    FltToS32.o                   68
+    I32ToDbl.o                   48
+    I32ToFlt.o                   50
+    pow.o                     2 120
+    xdint.o                     126
+    xdnorm.o                     68
+    xdscale.o                   268
+    xdtento.o                   512
+    xdtest.o                     50
+    xdunscal.o                   86
+    xexp.o                      700
+    xlog.o                      172
+    xstod.o                     332
+    ----------------------------------------------------------
+    Total:                    7 520
+
+rt7M_tl.a: [6]
+    ABImemclr4.o                  6
+    ABImemcpy_unaligned.o       118
+    ABImemmove_unaligned.o      120
+    ABImemset.o                 102
+    ABImemset48.o                50
+    XXexit.o                     12
+    cexit.o                      14
+    cmain.o                      26
+    cmain_call_ctors.o           32
+    cstart_call_dtors.o
+    cstartup_M.o                 12
+    data_init.o                  40
+    memchr.o                     88
+    memcmp_unaligned.o           98
+    packbits_init_single.o       56
+    strlen.o                     54
+    zero_init3.o                 64
+    ----------------------------------------------------------
+    Total:                      892
+
+    Gaps                         35        4
+    Linker created                        36    8 468
+--------------------------------------------------------------
+    Grand Total:             34 727    1 241    9 583      280
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.dynexit$$Base      0x200000a4          --   Gb  - Linker created -
+.iar.dynexit$$Limit     0x20000284          --   Gb  - Linker created -
+.iar.init_table$$Base   0x0800edf4          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0800ee18          --   Gb  - Linker created -
+?main                   0x0800e245         Code  Gb  cmain.o [6]
+ADC1_IRQHandler()       0x08008cb1   0x4e  Code  Gb  AdvClasses.o [1]
+ADC_Cmd                 0x08009955   0x12  Code  Gb  AdvClasses.o [1]
+ADC_Counter             0x2000003c    0x4  Data  Gb  AdvClasses.o [1]
+ADC_Init                0x080098f9   0x44  Code  Gb  AdvClasses.o [1]
+ADC_RegularChannelConfig
+                        0x0800999d   0x68  Code  Gb  AdvClasses.o [1]
+ADC_TempSensorVrefintCmd
+                        0x0800996d   0x16  Code  Gb  AdvClasses.o [1]
+AKB                     0x20002474   0x6c  Data  Gb  AdvClasses.o [1]
+AdcMultiplier           0x20000024    0x2  Data  Gb  AdvClasses.o [1]
+AdcStartEnable          0x20002571    0x1  Data  Gb  AdvClasses.o [1]
+BaseCmd                 0x200023a0   0xd4  Data  Gb  AdvClasses.o [1]
+Buffer                  0x20000050    0x8  Data  Gb  AdvClasses.o [1]
+BusFault_Handler()      0x08009c5d    0x2  Code  Gb  AdvClasses.o [1]
+CMDmessages             0x2000006c   0x14  Data  Gb  AdvClasses.o [1]
+COMP_IRQHandler()       0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+CSTACK$$Base            0x20000288          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000a58          --   Gb  - Linker created -
+DAC_IRQHandler()        0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+DATA_EEPROM_EraseWord   0x08009aa3   0x10  Code  Gb  AdvClasses.o [1]
+DATA_EEPROM_FastProgramByte
+                        0x08009abb   0x26  Code  Gb  AdvClasses.o [1]
+DATA_EEPROM_FastProgramWord
+                        0x08009b09   0x1c  Code  Gb  AdvClasses.o [1]
+DATA_EEPROM_Unlock      0x08009a8b   0x18  Code  Gb  AdvClasses.o [1]
+DMA1_Channel1_IRQHandler()
+                        0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+DMA1_Channel2_IRQHandler()
+                        0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+DMA1_Channel3_IRQHandler()
+                        0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+DMA1_Channel4_IRQHandler()
+                        0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+DMA1_Channel5_IRQHandler()
+                        0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+DMA1_Channel6_IRQHandler()
+                        0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+DMA1_Channel7_IRQHandler()
+                        0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+DebugMon_Handler()      0x08009c63    0x2  Code  Gb  AdvClasses.o [1]
+DtorRecArray            0x200000a4    0xc  Data  Lc  cppinit.o [3]
+EXTI0_IRQHandler()      0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+EXTI15_10_IRQHandler()  0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+EXTI1_IRQHandler()      0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+EXTI2_IRQHandler()      0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+EXTI3_IRQHandler()      0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+EXTI4_IRQHandler()      0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+EXTI9_5_IRQHandler()    0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+ExecutableCMD           0x20000034    0x4  Data  Gb  AdvClasses.o [1]
+FLASH_GetStatus         0x08009b71   0x26  Code  Gb  AdvClasses.o [1]
+FLASH_IRQHandler()      0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+FLASH_SetLatency        0x08009a7b   0x10  Code  Gb  AdvClasses.o [1]
+FLASH_WaitForLastOperation
+                        0x08009b97   0x38  Code  Gb  AdvClasses.o [1]
+GPIO_Init               0x08009bcf   0x5e  Code  Gb  AdvClasses.o [1]
+GPIO_PinAFConfig        0x08009c2d   0x24  Code  Gb  AdvClasses.o [1]
+GenerateDUMMY_NS_command(void *)
+                        0x0800903f   0x9a  Code  Gb  AdvClasses.o [1]
+HEAP$$Base              0x20000a58          --   Gb  - Linker created -
+HEAP$$Limit             0x200021c8          --   Gb  - Linker created -
+HardFault_Handler()     0x08009c57    0x2  Code  Gb  AdvClasses.o [1]
+I2C1_ER_IRQHandler()    0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+I2C1_EV_IRQHandler()    0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+I2C2_ER_IRQHandler()    0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+I2C2_EV_IRQHandler()    0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+IDetector::GetValueString()
+                        0x0800b1f9   0xdc  Code  Gb  AdvClasses.o [1]
+IDetector::IDetector(unsigned int *, unsigned int *, float, unsigned char, unsigned char, float)
+                        0x080097ad   0x60  Code  Gb  AdvClasses.o [1]
+IDetector::IDetector(unsigned int *, unsigned int *, float, unsigned char, unsigned char, float) [subobject]
+                        0x080065ed   0x10  Code  Gb  AdvClasses.o [1]
+InitRS485Objects()      0x08008eeb   0xf2  Code  Gb  AdvClasses.o [1]
+Init_ADC12()            0x08008b81   0xac  Code  Gb  AdvClasses.o [1]
+Init_Flash_Const()      0x08008c93   0x18  Code  Gb  AdvClasses.o [1]
+Init_OSC()              0x08008ad5   0x3a  Code  Gb  AdvClasses.o [1]
+Init_Ports()            0x08008aa1   0x34  Code  Gb  AdvClasses.o [1]
+Init_PowerMetrManagerObjects()
+                        0x08009013   0x26  Code  Gb  AdvClasses.o [1]
+Init_SysTick()          0x08008b5f   0x1c  Code  Gb  AdvClasses.o [1]
+Init_TIM7()             0x08008b2f   0x30  Code  Gb  AdvClasses.o [1]
+Init_WDT()              0x08008b0f   0x20  Code  Gb  AdvClasses.o [1]
+IntDefaultHandler()     0x08009c59    0x2  Code  Gb  AdvClasses.o [1]
+LCD_IRQHandler()        0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+MemManage_Handler()     0x08009c5b    0x2  Code  Gb  AdvClasses.o [1]
+NMI_Handler()           0x08009c55    0x2  Code  Gb  AdvClasses.o [1]
+NVIC_SetVectorTable     0x0800910d   0x10  Code  Gb  AdvClasses.o [1]
+OS_Dispatcher           0x20000058   0x14  Data  Gb  AdvClasses.o [1]
+PARAMS                  0x08080000   0x8c  Data  Gb  AdvClasses.o [1]
+PVD_IRQHandler()        0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+PendSV_Handler()        0x08009c65    0x2  Code  Gb  AdvClasses.o [1]
+PowerMetrManager        0x20000038    0x4  Data  Gb  AdvClasses.o [1]
+PowerMetrProcess(void *)
+                        0x08008ecd   0x1e  Code  Gb  AdvClasses.o [1]
+RCC_AHBPeriphClockCmd   0x08009d2d   0x14  Code  Gb  AdvClasses.o [1]
+RCC_APB2PeriphClockCmd  0x08009d45   0x14  Code  Gb  AdvClasses.o [1]
+RCC_GetClocksFreq       0x08009c95   0x94  Code  Gb  AdvClasses.o [1]
+RCC_IRQHandler()        0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+RCC_SYSCLKConfig        0x08009c79   0x10  Code  Gb  AdvClasses.o [1]
+RS485Port               0x200024e0   0x68  Data  Gb  AdvClasses.o [1]
+RS485Process(void *)    0x08008e39   0x8a  Code  Gb  AdvClasses.o [1]
+RTC_Alarm_IRQHandler()  0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+RTC_WKUP_IRQHandler()   0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+Region$$Table$$Base     0x0800edf4          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800ee18          --   Gb  - Linker created -
+Reset_Handler()         0x08009c51    0x4  Code  Gb  AdvClasses.o [1]
+RtcTimerDivider         0x20000080    0x4  Data  Gb  AdvClasses.o [1]
+SHT$$INIT_ARRAY$$Base   0x0800f058          --   Gb  - Linker created -
+SHT$$INIT_ARRAY$$Limit  0x0800f05c          --   Gb  - Linker created -
+SHT$$PREINIT_ARRAY$$Base
+                        0x0800f058          --   Gb  - Linker created -
+SHT$$PREINIT_ARRAY$$Limit
+                        0x0800f058          --   Gb  - Linker created -
+SPI1_IRQHandler()       0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+SPI2_IRQHandler()       0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+SVC_Handler()           0x08009c61    0x2  Code  Gb  AdvClasses.o [1]
+SYSTEM_INIT()           0x08008a71   0x30  Code  Gb  AdvClasses.o [1]
+SecCount                0x20000028    0x8  Data  Gb  AdvClasses.o [1]
+Start_ADC12()           0x08008c43   0x20  Code  Gb  AdvClasses.o [1]
+Stop_ADC12()            0x08008c63   0x30  Code  Gb  AdvClasses.o [1]
+SysTick_Handler()       0x08008d7f    0xa  Code  Gb  AdvClasses.o [1]
+SystemInit              0x08009e15    0x2  Code  Gb  AdvClasses.o [1]
+SystemTime              0x20000000   0x24  Data  Gb  AdvClasses.o [1]
+TAMPER_STAMP_IRQHandler()
+                        0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+TBuffer::ByteToHex(unsigned char *, unsigned char)
+                        0x08007f6f   0x24  Code  Gb  AdvClasses.o [1]
+TBuffer::CopyString(unsigned char *, unsigned char *)
+                        0x08007fa9   0x26  Code  Gb  AdvClasses.o [1]
+TBuffer::Crc(unsigned char const *, unsigned short)
+                        0x08007ecd   0x26  Code  Gb  AdvClasses.o [1]
+TBuffer::FloatToString(float, unsigned char, unsigned char)
+                        0x08007fcf   0x72  Code  Gb  AdvClasses.o [1]
+TBuffer::HexToByte(unsigned char *)
+                        0x08007f1d   0x52  Code  Gb  AdvClasses.o [1]
+TBuffer::HexToWord(unsigned char *)
+                        0x08007ef3   0x2a  Code  Gb  AdvClasses.o [1]
+TBuffer::IntToString(int, unsigned char)
+                        0x08008041   0xac  Code  Gb  AdvClasses.o [1]
+TBuffer::LongToString(long, unsigned char)
+                        0x080080f9   0xb2  Code  Gb  AdvClasses.o [1]
+TBuffer::Split(std::string&, std::string, Tlist<std::string> &, int)
+                        0x08008299   0x7e  Code  Gb  AdvClasses.o [1]
+TBuffer::Split(unsigned char *, unsigned short, std::string, Tlist<std::string> &, unsigned short)
+                        0x08008325   0xac  Code  Gb  AdvClasses.o [1]
+TBuffer::TBuffer(unsigned short)
+                        0x08009ec5   0x24  Code  Gb  AdvClasses.o [1]
+TBuffer::WordToHex(unsigned char *, unsigned short)
+                        0x08007f93   0x16  Code  Gb  AdvClasses.o [1]
+TBuffer::WordToString(unsigned short, unsigned char)
+                        0x08008215   0x7c  Code  Gb  AdvClasses.o [1]
+TBuffer::clear_all_nulls(char *, unsigned short)
+                        0x080084dd   0x4c  Code  Gb  AdvClasses.o [1]
+TBuffer::find(TBuffer*, std::string)
+                        0x08008409   0x52  Code  Gb  AdvClasses.o [1]
+TBuffer::find(unsigned char *, unsigned short, std::string)
+                        0x0800845b   0x52  Code  Gb  AdvClasses.o [1]
+TBuffer::find_first_of(TBuffer*, unsigned char)
+                        0x080083e5   0x20  Code  Gb  AdvClasses.o [1]
+TBuffer::find_last_of(TBuffer*, unsigned char)
+                        0x080084ad   0x1c  Code  Gb  AdvClasses.o [1]
+TBuffer::~TBuffer()     0x0800ef75    0xe  Code  Gb  AdvClasses.o [1]
+TCmdMessage::TCmdMessage()
+                        0x0800b0e5   0x50  Code  Gb  AdvClasses.o [1]
+TCmdMessage::TCmdMessage()::string
+                        0x0800eff8    0x8  Data  Gb  AdvClasses.o [1]
+TCmdMessage::TCmdMessage()::string (instance 2)
+                        0x0800a2de    0x1  Data  Gb  AdvClasses.o [1]
+TCmdMessage::TCmdMessage()::string (instance 3)
+                        0x08009ec2    0x2  Data  Gb  AdvClasses.o [1]
+TCmdMessage::~TCmdMessage()
+                        0x0800a2a9   0x36  Code  Gb  AdvClasses.o [1]
+TCmd_Data::CMD_Execute(void *, void *)
+                        0x08007219   0xfa  Code  Gb  AdvClasses.o [1]
+TCmd_Data::TCmd_Data(TCmd_msg *, std::string)
+                        0x0800b02d   0x24  Code  Gb  AdvClasses.o [1]
+TCmd_GetCfg::CMD_Execute(void *, void *)
+                        0x08007743  0x396  Code  Gb  AdvClasses.o [1]
+TCmd_GetCfg::TCmd_GetCfg(TCmd_msg *, std::string)
+                        0x0800b075   0x24  Code  Gb  AdvClasses.o [1]
+TCmd_GetData::CMD_Execute(void *, void *)
+                        0x08007331   0x70  Code  Gb  AdvClasses.o [1]
+TCmd_GetData::TCmd_GetData(TCmd_msg *, std::string)
+                        0x0800b099   0x24  Code  Gb  AdvClasses.o [1]
+TCmd_SetCfg::CMD_Execute(void *, void *)
+                        0x08007407  0x2c8  Code  Gb  AdvClasses.o [1]
+TCmd_SetCfg::TCmd_SetCfg(TCmd_msg *, std::string)
+                        0x0800b051   0x24  Code  Gb  AdvClasses.o [1]
+TCmd_UnknownCMD::CMD_Execute(void *, void *)
+                        0x080070b7  0x12c  Code  Gb  AdvClasses.o [1]
+TCmd_UnknownCMD::TCmd_UnknownCMD(TCmd_msg *, std::string)
+                        0x0800b009   0x24  Code  Gb  AdvClasses.o [1]
+TCmd_msg::AddToCMD_Messages(TCmd_msg*)
+                        0x08006e7d    0xa  Code  Gb  AdvClasses.o [1]
+TCmd_msg::CMD_Execute(void *, void *)
+                        0x08006777   0x2a  Code  Gb  AdvClasses.o [1]
+TCmd_msg::CMD_Recv(void *, void *)
+                        0x080066f7   0x48  Code  Gb  AdvClasses.o [1]
+TCmd_msg::CMD_Send(void *, void *)
+                        0x0800673f   0x28  Code  Gb  AdvClasses.o [1]
+TCmd_msg::ClearLastData()
+                        0x08006dd9    0xa  Code  Gb  AdvClasses.o [1]
+TCmd_msg::CreateCMD(TBuffer *, std::string, std::string, Tlist<std::string> &, bool, Time *, std::string, std::string)
+                        0x080067ab  0x216  Code  Gb  AdvClasses.o [1]
+TCmd_msg::GET_Message(void *, void *)
+                        0x08006767   0x10  Code  Gb  AdvClasses.o [1]
+TCmd_msg::GetCMDbyKey(std::string)
+                        0x08006e01   0x70  Code  Gb  AdvClasses.o [1]
+TCmd_msg::GetFase()     0x08006e87    0xa  Code  Gb  AdvClasses.o [1]
+TCmd_msg::GetTypes(Tlist<std::string> &, Tlist<TEt *>&)
+                        0x08006ec7  0x1a2  Code  Gb  AdvClasses.o [1]
+TCmd_msg::NeedAnswer()  0x08006eb1    0xa  Code  Gb  AdvClasses.o [1]
+TCmd_msg::NeedReset()   0x08006e9b    0xa  Code  Gb  AdvClasses.o [1]
+TCmd_msg::ParsingAnswer(TBuffer *)
+                        0x08006a31  0x358  Code  Gb  AdvClasses.o [1]
+TCmd_msg::PushBackToLastData(std::string)
+                        0x08006de3   0x1e  Code  Gb  AdvClasses.o [1]
+TCmd_msg::SetFase(unsigned char)
+                        0x08006e91    0xa  Code  Gb  AdvClasses.o [1]
+TCmd_msg::SetNeedAnswer()
+                        0x08006ebb    0xc  Code  Gb  AdvClasses.o [1]
+TCmd_msg::SetNeedReset()
+                        0x08006ea5    0xc  Code  Gb  AdvClasses.o [1]
+TCmd_msg::TCmd_msg()    0x08009ee9   0x8c  Code  Gb  AdvClasses.o [1]
+TCmd_msg::TCmd_msg()::string
+                        0x08009fce    0x2  Data  Gb  AdvClasses.o [1]
+TCmd_msg::~TCmd_msg()   0x0800ebd5   0x48  Code  Gb  AdvClasses.o [1]
+TComPort0::RX_Disable()
+                        0x080066e9    0xc  Code  Gb  AdvClasses.o [1]
+TComPort0::RX_Ready()   0x080066e7    0x2  Code  Gb  AdvClasses.o [1]
+TComPort0::TComPort0(unsigned short)
+                        0x080066a7   0x24  Code  Gb  AdvClasses.o [1]
+TComPort0::TX_Ready()   0x080066f5    0x2  Code  Gb  AdvClasses.o [1]
+TComPort0::~TComPort0()
+                        0x080066cd   0x1a  Code  Gb  AdvClasses.o [1]
+TComPort::CloseHandle(unsigned int)
+                        0x080086ff   0x16  Code  Gb  AdvClasses.o [1]
+TComPort::ClrStxFlag()  0x08008973    0xe  Code  Gb  AdvClasses.o [1]
+TComPort::InitPort(unsigned int)
+                        0x0800893f    0x4  Code  Gb  AdvClasses.o [1]
+TComPort::PushByteToDATA_Rx(unsigned char)
+                        0x080086cd   0x32  Code  Gb  AdvClasses.o [1]
+TComPort::RecvByte(unsigned char *)
+                        0x0800880d   0x24  Code  Gb  AdvClasses.o [1]
+TComPort::RecvTo(unsigned char *, unsigned short, unsigned char)
+                        0x080088c9   0x5c  Code  Gb  AdvClasses.o [1]
+TComPort::Send(unsigned char *, unsigned short)
+                        0x0800884f   0x4a  Code  Gb  AdvClasses.o [1]
+TComPort::SendByte(unsigned char)
+                        0x08008831   0x1e  Code  Gb  AdvClasses.o [1]
+TComPort::SetRxIntEnable(bool)
+                        0x0800895b   0x18  Code  Gb  AdvClasses.o [1]
+TComPort::SetTimeOuts(commtim)
+                        0x08008715    0xe  Code  Gb  AdvClasses.o [1]
+TComPort::SetTxIntEnable(bool)
+                        0x08008943   0x18  Code  Gb  AdvClasses.o [1]
+TComPort::TComPort()    0x0800867f   0x30  Code  Gb  AdvClasses.o [1]
+TComPort::open(Port, unsigned int, unsigned int)
+                        0x08008723   0xea  Code  Gb  AdvClasses.o [1]
+TComPort::~TComPort()   0x080086af   0x1e  Code  Gb  AdvClasses.o [1]
+TDateTime::IncDay()     0x080085eb   0x4a  Code  Gb  AdvClasses.o [1]
+TDateTime::IncHour()    0x080085d9   0x12  Code  Gb  AdvClasses.o [1]
+TDateTime::IncMinute()  0x080085c7   0x12  Code  Gb  AdvClasses.o [1]
+TDateTime::IncMonth()   0x08008635   0x14  Code  Gb  AdvClasses.o [1]
+TDateTime::IncSecond()  0x08008583   0x2c  Code  Gb  AdvClasses.o [1]
+TDateTime::IsLeapYear(unsigned short)
+                        0x08008649   0x36  Code  Gb  AdvClasses.o [1]
+TDateTime::SetTime(Time)
+                        0x0800856b   0x18  Code  Gb  AdvClasses.o [1]
+TDateTime::TDateTime()  0x0800852d   0x3c  Code  Gb  AdvClasses.o [1]
+TDateTime::~TDateTime()
+                        0x08008569    0x2  Code  Gb  AdvClasses.o [1]
+TDispatcher::CreateProcess(void (*)(void *))
+                        0x08007e9d    0x4  Code  Gb  AdvClasses.o [1]
+TDispatcher::Scheduler()
+                        0x08007ea1   0x2c  Code  Gb  AdvClasses.o [1]
+TDispatcher::~TDispatcher()
+                        0x08007e8b   0x12  Code  Gb  AdvClasses.o [1]
+TEt::~TEt()             0x0800e2c9   0x18  Code  Gb  AdvClasses.o [1]
+TFastTimer::SetTimer(unsigned char, unsigned int)
+                        0x0800b1c9   0x30  Code  Gb  AdvClasses.o [1]
+TFastTimer::TFastTimer(unsigned char, Word64 *)
+                        0x08009e3d   0x40  Code  Gb  AdvClasses.o [1]
+TFastTimer::TFastTimer(unsigned char, Word64 *) [subobject]
+                        0x0800b149    0x4  Code  Gb  AdvClasses.o [1]
+TFifo<unsigned char>::TFifo(unsigned int)
+                        0x08009f99   0x1a  Code  Gb  AdvClasses.o [1]
+TFifo<unsigned char>::clear()
+                        0x08009fd1   0x28  Code  Gb  AdvClasses.o [1]
+TFifo<unsigned char>::pop()
+                        0x0800afd1   0x2a  Code  Gb  AdvClasses.o [1]
+TFifo<unsigned char>::~TFifo()
+                        0x08009fb3   0x12  Code  Gb  AdvClasses.o [1]
+TIM10_IRQHandler()      0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+TIM11_IRQHandler()      0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+TIM2_IRQHandler()       0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+TIM3_IRQHandler()       0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+TIM4_IRQHandler()       0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+TIM6_IRQHandler()       0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+TIM7_IRQHandler()       0x08008d05   0x7a  Code  Gb  AdvClasses.o [1]
+TIM9_IRQHandler()       0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+TMP_PARAMS              0x08080200   0x8c  Data  Gb  AdvClasses.o [1]
+TMamStruct::CalcMinAverMax(float)
+                        0x0800b171   0x58  Code  Gb  AdvClasses.o [1]
+TMamStruct::TMamStruct()
+                        0x0800b2d5    0xe  Code  Gb  AdvClasses.o [1]
+TObject::ClrEepromFlashSegment(unsigned char const *)
+                        0x08007de7   0x44  Code  Gb  AdvClasses.o [1]
+TObject::PtrToConstants
+                        0x20000040    0x4  Data  Gb  AdvClasses.o [1]
+TObject::Save_ParamsInInfo(Data_Params *)
+                        0x08007d65   0x3e  Code  Gb  AdvClasses.o [1]
+TObject::SetDataTime(TDateTime &, std::string&, std::string&)
+                        0x08007c19  0x11a  Code  Gb  AdvClasses.o [1]
+TObject::Soft_Reset()   0x08007e81    0xa  Code  Gb  AdvClasses.o [1]
+TObject::VerifyMemory(unsigned char const *, unsigned char *, unsigned short)
+                        0x08007da3   0x26  Code  Gb  AdvClasses.o [1]
+TObject::WriteByteToEeprom_MY(unsigned char const *, unsigned short, unsigned char *)
+                        0x08007e31   0x50  Code  Gb  AdvClasses.o [1]
+TObject::WriteEepromBufToPage(unsigned char const *, unsigned char *, unsigned short)
+                        0x08007dd1    0xe  Code  Gb  AdvClasses.o [1]
+TObjectFunctions::ObjectFunctionsTimer
+                        0x20000044    0xc  Data  Gb  AdvClasses.o [1]
+TPowerMetr::TPowerMetr()
+                        0x08009773   0x28  Code  Gb  AdvClasses.o [1]
+TPowerMetrManager::FASE_DetectStates()
+                        0x0800933b  0x102  Code  Gb  AdvClasses.o [1]
+TPowerMetrManager::FASE_DetectStates()::perflg
+                        0x20002572    0x1  Data  Lc  AdvClasses.o [1]
+TPowerMetrManager::FASE_FormingMessageCMD(void *)
+                        0x08009445  0x2de  Code  Gb  AdvClasses.o [1]
+TPowerMetrManager::Init(Data_Params const *)
+                        0x0800914d  0x16a  Code  Gb  AdvClasses.o [1]
+TPowerMetrManager::TPowerMetrManager(unsigned short)
+                        0x08009121   0x26  Code  Gb  AdvClasses.o [1]
+TPt::TPt(int, int)      0x0800a253   0x18  Code  Gb  AdvClasses.o [1]
+TPt::~TPt()             0x0800e2b1   0x18  Code  Gb  AdvClasses.o [1]
+TTimer::DecTimer(unsigned char)
+                        0x080089e7   0x16  Code  Gb  AdvClasses.o [1]
+TTimer::GetTimValue(unsigned char)
+                        0x080089fd   0x16  Code  Gb  AdvClasses.o [1]
+TTimer::SetTimer(unsigned char, unsigned int)
+                        0x080089cf   0x18  Code  Gb  AdvClasses.o [1]
+TTimer::TTimer(unsigned char)
+                        0x08008981   0x34  Code  Gb  AdvClasses.o [1]
+TTimer::TTimer(unsigned char) [subobject]
+                        0x080065e9    0x4  Code  Gb  AdvClasses.o [1]
+TTimer::wait_1ms(unsigned short)
+                        0x08008a13    0x4  Code  Gb  AdvClasses.o [1]
+TTimer::~TTimer()       0x080089c1    0xe  Code  Gb  AdvClasses.o [1]
+TVoltageDetector::GetSimpleValue()
+                        0x0800988d   0x26  Code  Gb  AdvClasses.o [1]
+TVoltageDetector::GetValue()
+                        0x08009845   0x3a  Code  Gb  AdvClasses.o [1]
+TVoltageDetector::TVoltageDetector(unsigned int *, unsigned int *, float, unsigned char, unsigned char, float, float)
+                        0x08009811   0x28  Code  Gb  AdvClasses.o [1]
+Tlist<IDetector *>::foreach_next()
+                        0x0800a555   0x26  Code  Gb  AdvClasses.o [1]
+Tlist<IDetector *>::set_interator(int)
+                        0x0800a525   0x30  Code  Gb  AdvClasses.o [1]
+Tlist<TCmdMessage *>::clear()
+                        0x0800b0bd   0x28  Code  Gb  AdvClasses.o [1]
+Tlist<TCmdMessage *>::pop_front()
+                        0x0800a27f   0x2a  Code  Gb  AdvClasses.o [1]
+Tlist<TCmdMessage *>::~Tlist()
+                        0x0800efcd    0xc  Code  Gb  AdvClasses.o [1]
+Tlist<TCmd_msg *>::~Tlist()
+                        0x0800ec1d   0x40  Code  Gb  AdvClasses.o [1]
+Tlist<TEt *>::~Tlist()  0x0800a2e1   0x40  Code  Gb  AdvClasses.o [1]
+Tlist<TPt *>::clear()   0x0800ea99   0x3c  Code  Gb  AdvClasses.o [1]
+Tlist<TPt *>::operator [](int) const
+                        0x0800a321   0x28  Code  Gb  AdvClasses.o [1]
+Tlist<TPt *>::push_back(TPt *)
+                        0x0800a219   0x2c  Code  Gb  AdvClasses.o [1]
+Tlist<std::string>::Tlist()
+                        0x0800a245    0xe  Code  Gb  AdvClasses.o [1]
+Tlist<std::string>::clear()
+                        0x0800a195   0x3c  Code  Gb  AdvClasses.o [1]
+Tlist<std::string>::operator [](int) const
+                        0x0800a0d1   0x28  Code  Gb  AdvClasses.o [1]
+Tlist<std::string>::push_back(std::string)
+                        0x0800a1d1   0x48  Code  Gb  AdvClasses.o [1]
+Tlist<void (*)(void *)>::clear()
+                        0x0800a859   0x3c  Code  Gb  AdvClasses.o [1]
+Tlist_item<TCmdMessage *>::~Tlist_item()
+                        0x0800cbd5   0x60  Code  Gb  AdvClasses.o [1]
+Tlist_item<TCmd_msg *>::~Tlist_item()
+                        0x0800eb75   0x60  Code  Gb  AdvClasses.o [1]
+Tlist_item<TEt *>::~Tlist_item()
+                        0x0800cc35   0x5c  Code  Gb  AdvClasses.o [1]
+Tlist_item<TPt *>::Tlist_item(TPt *)
+                        0x0800cbc9    0xa  Code  Gb  AdvClasses.o [1]
+Tlist_item<TPt *>::~Tlist_item()
+                        0x0800eb19   0x5c  Code  Gb  AdvClasses.o [1]
+Tlist_item<std::string>::Tlist_item(std::string)
+                        0x0800cbad   0x1c  Code  Gb  AdvClasses.o [1]
+Tlist_item<std::string>::~Tlist_item()
+                        0x0800cb49   0x64  Code  Gb  AdvClasses.o [1]
+Tlist_item<void (*)(void *)>::~Tlist_item()
+                        0x0800d72d   0x60  Code  Gb  AdvClasses.o [1]
+Typeinfo for TCmd       0x0800f020    0x8  Data  Gb  AdvClasses.o [1]
+Typeinfo for TCmdMessage
+                        0x0800f000    0x8  Data  Gb  AdvClasses.o [1]
+Typeinfo for TCmdMessage *
+                        0x0800eed4   0x10  Data  Gb  AdvClasses.o [1]
+Typeinfo for TCmd_msg   0x0800ef9c    0xc  Data  Gb  AdvClasses.o [1]
+Typeinfo for TCmd_msg *
+                        0x0800eec4   0x10  Data  Gb  AdvClasses.o [1]
+Typeinfo for TEt        0x0800efe0    0x8  Data  Gb  AdvClasses.o [1]
+Typeinfo for TPt        0x0800eff0    0x8  Data  Gb  AdvClasses.o [1]
+Typeinfo for TPt *      0x0800eeb4   0x10  Data  Gb  AdvClasses.o [1]
+Typeinfo for std::_Container_base
+                        0x0800f040    0x8  Data  Gb  AdvClasses.o [1]
+Typeinfo for std::_String_base
+                        0x0800efb4    0xc  Data  Gb  AdvClasses.o [1]
+Typeinfo for std::_String_val<char, std::allocator<char>>
+                        0x0800efc0    0xc  Data  Gb  AdvClasses.o [1]
+Typeinfo for std::string
+                        0x0800ef84    0xc  Data  Gb  AdvClasses.o [1]
+Typeinfo for void (*)(void *)
+                        0x0800eef4   0x10  Data  Gb  AdvClasses.o [1]
+Typeinfo for void (void *)
+                        0x0800f010    0x8  Data  Gb  AdvClasses.o [1]
+Typeinfo name for TCmd  0x0800f028    0x8  Data  Gb  AdvClasses.o [1]
+Typeinfo name for TCmdMessage
+                        0x0800ef04   0x10  Data  Gb  AdvClasses.o [1]
+Typeinfo name for TCmdMessage *
+                        0x0800eee4   0x10  Data  Gb  AdvClasses.o [1]
+Typeinfo name for TCmd_msg
+                        0x0800efa8    0xc  Data  Gb  AdvClasses.o [1]
+Typeinfo name for TCmd_msg *
+                        0x0800ef90    0xc  Data  Gb  AdvClasses.o [1]
+Typeinfo name for TEt   0x0800f038    0x8  Data  Gb  AdvClasses.o [1]
+Typeinfo name for TEt *
+                        0x0800efd8    0x8  Data  Gb  AdvClasses.o [1]
+Typeinfo name for TPt   0x0800f030    0x8  Data  Gb  AdvClasses.o [1]
+Typeinfo name for TPt *
+                        0x0800efe8    0x8  Data  Gb  AdvClasses.o [1]
+Typeinfo name for std::_Container_base
+                        0x0800ee8c   0x14  Data  Gb  AdvClasses.o [1]
+Typeinfo name for std::_String_base
+                        0x0800eea0   0x14  Data  Gb  AdvClasses.o [1]
+Typeinfo name for std::_String_val<char, std::allocator<char>>
+                        0x0800ee38   0x18  Data  Gb  AdvClasses.o [1]
+Typeinfo name for std::string
+                        0x0800f050    0x4  Data  Gb  AdvClasses.o [1]
+Typeinfo name for void (*)(void *)
+                        0x0800f008    0x8  Data  Gb  AdvClasses.o [1]
+Typeinfo name for void (void *)
+                        0x0800f018    0x8  Data  Gb  AdvClasses.o [1]
+USART1_IRQHandler()     0x08008d8d   0x42  Code  Gb  AdvClasses.o [1]
+USART1_IRQHandler()::data
+                        0x20002570    0x1  Data  Lc  AdvClasses.o [1]
+USART2_IRQHandler()     0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+USART3_IRQHandler()     0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+USART_Cmd               0x08009e01   0x14  Code  Gb  AdvClasses.o [1]
+USART_Init              0x08009d59   0x98  Code  Gb  AdvClasses.o [1]
+USB_FS_WKUP_IRQHandler()
+                        0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+USB_HP_IRQHandler()     0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+USB_LP_IRQHandler()     0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+UsageFault_Handler()    0x08009c5f    0x2  Code  Gb  AdvClasses.o [1]
+Virtual function table for IDetector
+                        0x0800ee50   0x14  Data  Gb  AdvClasses.o [1]
+Virtual function table for TCmd_Data
+                        0x0800ed34   0x30  Data  Gb  AdvClasses.o [1]
+Virtual function table for TCmd_GetCfg
+                        0x0800edc4   0x30  Data  Gb  AdvClasses.o [1]
+Virtual function table for TCmd_GetData
+                        0x0800ed64   0x30  Data  Gb  AdvClasses.o [1]
+Virtual function table for TCmd_SetCfg
+                        0x0800ed94   0x30  Data  Gb  AdvClasses.o [1]
+Virtual function table for TCmd_UnknownCMD
+                        0x0800ed04   0x30  Data  Gb  AdvClasses.o [1]
+Virtual function table for TCmd_msg
+                        0x0800ecd4   0x30  Data  Gb  AdvClasses.o [1]
+Virtual function table for TComPort
+                        0x0800d044   0x44  Data  Gb  AdvClasses.o [1]
+Virtual function table for TComPort0
+                        0x0800d844   0x44  Data  Gb  AdvClasses.o [1]
+Virtual function table for TTimer
+                        0x0800ee64   0x14  Data  Gb  AdvClasses.o [1]
+Virtual function table for TVoltageDetector
+                        0x0800ee78   0x14  Data  Gb  AdvClasses.o [1]
+Virtual function table for __cxxabiv1::__class_type_info
+                        0x0800ef44   0x10  Data  Gb  typeinfo.o [4]
+Virtual function table for __cxxabiv1::__function_type_info
+                        0x0800ef34   0x10  Data  Gb  typeinfo.o [4]
+Virtual function table for __cxxabiv1::__pointer_type_info
+                        0x0800ef24   0x10  Data  Gb  typeinfo.o [4]
+Virtual function table for __cxxabiv1::__si_class_type_info
+                        0x0800ef54   0x10  Data  Gb  typeinfo.o [4]
+WWDG_IRQHandler()       0x08009c59    0x2  Code  Wk  AdvClasses.o [1]
+Word64::Word64()        0x0800f049    0x8  Code  Gb  AdvClasses.o [1]
+Word64::~Word64()       0x0800e56d    0x2  Code  Gb  AdvClasses.o [1]
+_Stoflt                 0x0800cdb1  0x1ac  Code  Gb  xstoflt.o [3]
+_Stopfx                 0x0800cc91  0x11e  Code  Gb  xstopfx.o [3]
+_Stoxflt                0x0800d289  0x1cc  Code  Gb  xstoxflt.o [3]
+_Stoxflt::digits        0x0800d458   0x18  Data  Lc  xstoxflt.o [3]
+_Stoxflt::vals          0x0800d470   0x18  Data  Lc  xstoxflt.o [3]
+__aeabi_atexit          0x08009eb9    0xa  Code  Gb  cxxabi.o [4]
+__aeabi_cdcmpeq         0x0800af11         Code  Gb  DblCmpEq.o [5]
+__aeabi_cdcmple         0x0800e5ed         Code  Gb  DblCmpLe.o [5]
+__aeabi_cdrcmple        0x0800aae5         Code  Gb  DblCmpGe.o [5]
+__aeabi_cfcmple         0x0800b14d         Code  Gb  FltCmpLe.o [5]
+__aeabi_d2f             0x0800a495         Code  Gb  DblToFlt.o [5]
+__aeabi_d2iz            0x0800aa45         Code  Gb  DblToI32.o [5]
+__aeabi_dadd            0x0800cf5d         Code  Gb  DblAdd.o [5]
+__aeabi_ddiv            0x0800ab15         Code  Gb  DblDiv.o [5]
+__aeabi_dmul            0x0800ad6d         Code  Gb  DblMul.o [5]
+__aeabi_dsub            0x0800e2e1         Code  Gb  DblSub.o [5]
+__aeabi_errno_addr      0x0800d721    0x6  Code  Gb  errno.o [3]
+__aeabi_f2d             0x0800a9f5         Code  Gb  FltToDbl.o [5]
+__aeabi_f2iz            0x0800a895         Code  Gb  FltToS32.o [5]
+__aeabi_fadd            0x0800d78d         Code  Gb  FltAdd.o [5]
+__aeabi_fdiv            0x0800e149         Code  Gb  FltDiv.o [5]
+__aeabi_fmul            0x0800b2e5         Code  Gb  FltMul.o [5]
+__aeabi_fsub            0x0800a90d         Code  Gb  FltSub.o [5]
+__aeabi_i2d             0x0800aab5         Code  Gb  I32ToDbl.o [5]
+__aeabi_i2f             0x0800a8d9         Code  Gb  I32ToFlt.o [5]
+__aeabi_memclr4         0x0800aa91         Code  Gb  ABImemclr4.o [6]
+__aeabi_memset          0x0800e0e1         Code  Gb  ABImemset.o [6]
+__aeabi_ui2d            0x0800aac9         Code  Gb  I32ToDbl.o [5]
+__aeabi_ui2f            0x0800a8ed         Code  Gb  I32ToFlt.o [5]
+__aeabi_vec_new_cookie_nodtor
+                        0x08009e7d   0x36  Code  Gb  cxxabi.o [4]
+__call_ctors            0x0800b3c9   0x18  Code  Gb  cppinit.o [3]
+__call_dtors            0x0800b417    0x2  Code  Gb  cppinit.o [3]
+__cexit_call_dtors      0x0800eb0b         Code  Gb  cexit.o [6]
+__cmain                 0x0800e245         Code  Gb  cmain.o [6]
+__cstart_call_dtors     0x0800f05c         Data  Gb  cstart_call_dtors.o [6]
+__cxa_atexit            0x0800b3e1   0x36  Code  Gb  cppinit.o [3]
+__cxa_finalize          0x0800b419   0x36  Code  Gb  cppinit.o [3]
+__cxa_pure_virtual      0x0800b46d    0x4  Code  Gb  xpurevirtual.o [3]
+__data_GetMemChunk      0x0800e265   0x2c  Code  Gb  xgetmemchunk.o [3]
+__data_GetMemChunk::start
+                        0x2000256c    0x4  Data  Lc  xgetmemchunk.o [3]
+__dso_handle            0x20002564    0x4  Data  Gb  cppinit.o [3]
+__exit                  0x0800ea15         Code  Gb  XXexit.o [6]
+__iar_Dint              0x0800e56f   0x7e  Code  Gb  xdint.o [5]
+__iar_Dnorm             0x0800e461   0x44  Code  Gb  xdnorm.o [5]
+__iar_Dscale            0x0800d489  0x10c  Code  Gb  xdscale.o [5]
+__iar_Dtentox           0x0800d0db  0x14e  Code  Gb  xdtento.o [5]
+__iar_Dtest             0x0800ead5   0x32  Code  Gb  xdtest.o [5]
+__iar_Dunscale          0x0800e4a5   0x56  Code  Gb  xdunscal.o [5]
+__iar_Errno             0x200000a0    0x4  Data  Gb  errno.o [3]
+__iar_Exp               0x0800e6c9  0x2b6  Code  Gb  xexp.o [5]
+__iar_Logpoly           0x0800e61d   0x70  Code  Gb  xlog.o [5]
+__iar_Memchr            0x0800d6c9         Code  Gb  memchr.o [6]
+__iar_Memset            0x0800e0e1         Code  Gb  ABImemset.o [6]
+__iar_Memset4_word      0x0800d811         Code  Gb  ABImemset48.o [6]
+__iar_Memset8_word      0x0800d811         Code  Gb  ABImemset48.o [6]
+__iar_Memset_word       0x0800e0e9         Code  Gb  ABImemset.o [6]
+__iar_Stod              0x0800a491    0x4  Code  Gb  xstod.o [5]
+__iar_Stodx             0x0800a349  0x13a  Code  Gb  xstod.o [5]
+__iar_Stoul             0x0800a805    0x4  Code  Gb  xstoul.o [3]
+__iar_Stoulx            0x0800a6bd  0x142  Code  Gb  xstoul.o [3]
+__iar_cstart_call_ctors
+                        0x0800ee19   0x20  Code  Gb  cmain_call_ctors.o [6]
+__iar_d2uiz             0x0800aa71         Code  Gb  DblToI32.o [5]
+__iar_dadd              0x0800cf71         Code  Gb  DblAdd.o [5]
+__iar_data_init3        0x0800e9e9   0x28  Code  Gb  data_init.o [6]
+__iar_dlfree            0x0800c443  0x51a  Code  Gb  dlmalloc.o [3]
+__iar_dlmalloc          0x0800c18d  0x2aa  Code  Gb  dlmalloc.o [3]
+__iar_dsub              0x0800e2f5         Code  Gb  DblSub.o [5]
+__iar_dsubStart         0x0800e307         Code  Gb  DblSub.o [5]
+__iar_fadd              0x0800d79d         Code  Gb  FltAdd.o [5]
+__iar_fsub              0x0800a91d         Code  Gb  FltSub.o [5]
+__iar_fsubStart         0x0800a92d         Code  Gb  FltSub.o [5]
+__iar_packbits_init_single3
+                        0x0800ec9d   0x38  Code  Gb  packbits_init_single.o [6]
+__iar_program_start     0x0800b3bd         Code  Gb  cstartup_M.o [6]
+__iar_ui2d              0x0800aacd         Code  Gb  I32ToDbl.o [5]
+__iar_ui2f              0x0800a8f1         Code  Gb  I32ToFlt.o [5]
+__iar_unaligned___aeabi_memcpy
+                        0x08009ff9         Code  Gb  ABImemcpy_unaligned.o [6]
+__iar_unaligned___aeabi_memcpy4
+                        0x0800a019         Code  Gb  ABImemcpy_unaligned.o [6]
+__iar_unaligned___aeabi_memcpy8
+                        0x0800a019         Code  Gb  ABImemcpy_unaligned.o [6]
+__iar_unaligned___aeabi_memmove
+                        0x0800ea21         Code  Gb  ABImemmove_unaligned.o [6]
+__iar_unaligned___aeabi_memmove4
+                        0x0800ea21         Code  Gb  ABImemmove_unaligned.o [6]
+__iar_unaligned___aeabi_memmove8
+                        0x0800ea21         Code  Gb  ABImemmove_unaligned.o [6]
+__iar_unaligned_memcmp  0x0800e985         Code  Gb  memcmp_unaligned.o [6]
+__iar_zero_init3        0x0800ec5d   0x40  Code  Gb  zero_init3.o [6]
+__vector_table          0x080064f4         Data  Gb  startup_stm32l1xx_md.o [1]
+_call_main              0x0800e251         Code  Gb  cmain.o [6]
+_exit                   0x0800eb09         Code  Gb  cexit.o [6]
+_gm_                    0x200021c8  0x1d8  Data  Lc  dlmalloc.o [3]
+_main                   0x0800e25b         Code  Gb  cmain.o [6]
+abort                   0x0800e25f    0x6  Code  Gb  abort.o [3]
+bool std::operator !=<char, std::char_traits<char>, std::allocator<char>>(const std::string&, char const *)
+                        0x0800a26b   0x10  Code  Gb  AdvClasses.o [1]
+bool std::operator ==<char, std::char_traits<char>, std::allocator<char>>(const std::string&, char const *)
+                        0x0800a06f   0x22  Code  Gb  AdvClasses.o [1]
+bool std::operator ==<char, std::char_traits<char>, std::allocator<char>>(const std::string&, const std::string&)
+                        0x0800a173   0x22  Code  Gb  AdvClasses.o [1]
+commtim::commtim()      0x0800afb9    0xc  Code  Gb  AdvClasses.o [1]
+digits                  0x0800a808   0x28  Data  Lc  xstoul.o [3]
+dmul                    0x0800d089   0x52  Code  Lc  xdtento.o [5]
+exit                    0x0800ea11    0x4  Code  Gb  exit.o [3]
+init_mparams            0x0800b48d   0x32  Code  Lc  dlmalloc.o [3]
+init_top                0x0800b4bf   0x34  Code  Lc  dlmalloc.o [3]
+internal_Pow            0x0800d889  0x40e  Code  Lc  pow.o [5]
+lnbias                  0x0800dcb0  0x420  Data  Lc  pow.o [5]
+main                    0x08008dd5   0x64  Code  Gb  AdvClasses.o [1]
+memchr                  0x0800d6c9         Code  Gb  memchr.o [6]
+memset                  0x0800b135   0x14  Code  Gb  memset.o [3]
+mparams                 0x20002548   0x18  Data  Lc  dlmalloc.o [3]
+ndigs                   0x0800a830   0x28  Data  Lc  xstoul.o [3]
+next_abi_dtor_rec       0x20002560    0x4  Data  Lc  cppinit.o [3]
+operator delete (void *)
+                        0x08009fc5    0xa  Code  Gb  delop_0.o [4]
+operator delete[] (void *)
+                        0x0800b003    0x4  Code  Gb  delaop_0.o [4]
+operator new (unsigned int)
+                        0x08009f75   0x24  Code  Gb  newop_0.o [4]
+operator new[] (unsigned int)
+                        0x0800affb    0x8  Code  Gb  newaop_0.o [4]
+pow                     0x0800dc9d    0xe  Code  Gb  pow.o [5]
+pows                    0x0800d240   0x48  Data  Lc  xdtento.o [5]
+prepend_alloc           0x0800b4f3  0x372  Code  Lc  dlmalloc.o [3]
+segment_holding         0x0800b471   0x1c  Code  Lc  dlmalloc.o [3]
+std::_Combined_type<std::_Rc_widened<std::_Rc_type<double>::_Type, std::_Rc_type<unsigned char>::_Type>::_Type, std::_Real_widened<std::_Real_type<double>::_Type, std::_Real_type<unsigned char>::_Type>::_Type>::_Type std::pow<double, unsigned char>(double, unsigned char)
+                        0x0800aa97   0x1e  Code  Gb  AdvClasses.o [1]
+std::_String_base::_XlenAbort() const
+                        0x0800d62f    0x4  Code  Gb  string2.o [4]
+std::_String_base::_XranAbort() const
+                        0x0800d633    0x4  Code  Gb  string2.o [4]
+std::__iar_New_hand     0x20002568    0x4  Data  Gb  new.o [4]
+std::char_traits<char>::assign(char *, unsigned int, char)
+                        0x0800e561    0xc  Code  Gb  AdvClasses.o [1]
+std::char_traits<char>::compare(char const *, char const *, unsigned int)
+                        0x0800e0db    0x4  Code  Gb  AdvClasses.o [1]
+std::char_traits<char>::copy(char *, char const *, unsigned int)
+                        0x0800afc5    0xc  Code  Gb  AdvClasses.o [1]
+std::char_traits<char>::find(char const *, unsigned int, char const &)
+                        0x0800e0d1    0xa  Code  Gb  AdvClasses.o [1]
+std::char_traits<char>::move(char *, char const *, unsigned int)
+                        0x0800e291    0xc  Code  Gb  AdvClasses.o [1]
+std::string std::operator +<char, std::char_traits<char>, std::allocator<char>>(char const *, const std::string&)
+                        0x0800a5eb   0x26  Code  Gb  AdvClasses.o [1]
+std::string std::operator +<char, std::char_traits<char>, std::allocator<char>>(const std::string&, char const *)
+                        0x0800a611   0x26  Code  Gb  AdvClasses.o [1]
+std::string std::operator +<char, std::char_traits<char>, std::allocator<char>>(const std::string&, char)
+                        0x0800a65d   0x56  Code  Gb  AdvClasses.o [1]
+std::string std::operator +<char, std::char_traits<char>, std::allocator<char>>(const std::string&, const std::string&)
+                        0x0800a637   0x26  Code  Gb  AdvClasses.o [1]
+std::string::_Chassign(unsigned int, unsigned int, char)
+                        0x0800d69f   0x28  Code  Gb  AdvClasses.o [1]
+std::string::_Copy(unsigned int, unsigned int)
+                        0x0800e4fb   0x66  Code  Gb  AdvClasses.o [1]
+std::string::_Eos(unsigned int)
+                        0x0800d68d   0x12  Code  Gb  AdvClasses.o [1]
+std::string::_Grow(unsigned int, bool)
+                        0x0800d637   0x56  Code  Gb  AdvClasses.o [1]
+std::string::_Inside(char const *)
+                        0x0800d595   0x26  Code  Gb  AdvClasses.o [1]
+std::string::_Myptr()   0x0800a091    0xe  Code  Gb  AdvClasses.o [1]
+std::string::_Pdif(std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char>>, std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char>>)
+                        0x0800c9eb    0xc  Code  Gb  AdvClasses.o [1]
+std::string::_Tidy(bool, unsigned int)
+                        0x0800ca43   0x30  Code  Gb  AdvClasses.o [1]
+std::string::append(char const *)
+                        0x0800a57b   0x70  Code  Gb  AdvClasses.o [1]
+std::string::append(const std::string&, unsigned int, unsigned int)
+                        0x0800d5bb   0x74  Code  Gb  AdvClasses.o [1]
+std::string::assign(char const *)
+                        0x0800a139   0x1a  Code  Gb  AdvClasses.o [1]
+std::string::assign(char const *, unsigned int)
+                        0x0800caff   0x4a  Code  Gb  AdvClasses.o [1]
+std::string::assign(const std::string&, unsigned int, unsigned int)
+                        0x0800ca95   0x6a  Code  Gb  AdvClasses.o [1]
+std::string::basic_string()
+                        0x0800b45d   0x10  Code  Gb  AdvClasses.o [1]
+std::string::basic_string(char const *)
+                        0x0800a0f9   0x1a  Code  Gb  AdvClasses.o [1]
+std::string::basic_string(char const *, unsigned int)
+                        0x0800af9b   0x1e  Code  Gb  AdvClasses.o [1]
+std::string::basic_string(const std::string&)
+                        0x0800a153   0x20  Code  Gb  AdvClasses.o [1]
+std::string::basic_string(const std::string&, unsigned int, unsigned int, const std::allocator<char>&)
+                        0x0800ca73   0x22  Code  Gb  AdvClasses.o [1]
+std::string::compare(unsigned int, unsigned int, char const *, unsigned int) const
+                        0x0800c99b   0x50  Code  Gb  AdvClasses.o [1]
+std::string::erase(std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char>>, std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char>>)
+                        0x0800a09f   0x32  Code  Gb  AdvClasses.o [1]
+std::string::erase(unsigned int, unsigned int)
+                        0x0800c9f7   0x4c  Code  Gb  AdvClasses.o [1]
+std::string::find(const std::string&, unsigned int) const
+                        0x0800af31   0x6a  Code  Gb  AdvClasses.o [1]
+std::string::operator +=(const std::string&)
+                        0x0800a6b3    0xa  Code  Gb  AdvClasses.o [1]
+std::string::operator =(char const *)
+                        0x0800a27b    0x4  Code  Gb  AdvClasses.o [1]
+std::string::operator =(const std::string&)
+                        0x0800a12f    0xa  Code  Gb  AdvClasses.o [1]
+std::string::substr(unsigned int, unsigned int) const
+                        0x0800a123    0xc  Code  Gb  AdvClasses.o [1]
+std::string::~basic_string()
+                        0x0800a113   0x10  Code  Gb  AdvClasses.o [1]
+std::type_info::operator ==(const std::type_info&) const
+                        0x0800e29d   0x14  Code  Gb  typeinfo.o [4]
+strlen                  0x0800c965         Code  Gb  strlen.o [6]
+sys_alloc               0x0800b865  0x388  Code  Lc  dlmalloc.o [3]
+tmalloc_large           0x0800bbf9  0x380  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0x0800bf79  0x206  Code  Lc  dlmalloc.o [3]
+
+
+[1] = D:\$PROJECTS\Microcontrollers\GIT\STM32\MKAB_STM32Lxx\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = dlpp7M_tl_nc.a
+[5] = m7M_tl.a
+[6] = rt7M_tl.a
+
+  34 727 bytes of readonly  code memory
+   1 241 bytes of readonly  data memory (+ 280 absolute)
+   9 583 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

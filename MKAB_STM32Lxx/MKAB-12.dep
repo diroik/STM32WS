@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3502610549</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$PROJ_DIR$\incl\flash_map.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_it.o</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_flash.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\cmsis_compiler.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_flash.__cstat.et</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx.h</file>
+      <file>$PROJ_DIR$\incl\Classes.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_usart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\MKAB-12.txt</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_flash.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\PowerMetr.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32l1xx.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\cstdio</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_wwdg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_usart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_rcc.h</file>
+      <file>$PROJ_DIR$\Debug\List\MKAB-12.map</file>
+      <file>$TOOLKIT_DIR$\inc\c\climits</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\locale.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cstring</file>
+      <file>$PROJ_DIR$\Debug\Obj\PowerMetr.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\MKAB-12.out</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_gpio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Classes.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\AdvClasses.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_syscfg.h</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_conf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\AdvClasses.__cstat.et</file>
+      <file>$PROJ_DIR$\incl\PowerMetr.h</file>
+      <file>$PROJ_DIR$\incl\params_def.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\clocale</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Classes.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupts.__cstat.et</file>
+      <file>$PROJ_DIR$\incl\init.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_gpio.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$PROJ_DIR$\Debug\List\MKAB-12.log</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32l1xx_md.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_gpio.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmath</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_lconv.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cstdlib</file>
+      <file>$PROJ_DIR$\lib\MKAB-12.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_rcc.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\stdexcept</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.__cstat.et</file>
+      <file>$PROJ_DIR$\incl\AdvClasses.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cstddef</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\new</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_it.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\xmemory</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MKAB-12.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_flash.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctime</file>
+      <file>$PROJ_DIR$\incl\type_define.h</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\typeinfo</file>
+      <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\xlocale</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\ostream</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\xutility</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\exception</file>
+      <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_nc.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\iosfwd</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_rcc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\utility</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\xlocnum</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\xdebug</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\xiosbase</file>
+      <file>$TOOLKIT_DIR$\inc\c\cctype</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\ios</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\istream</file>
+      <file>$TOOLKIT_DIR$\inc\c\cwchar</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\AdvClasses.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\string</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\streambuf</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\xstddef</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_usart.h</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\xstring</file>
+      <file>$TOOLKIT_DIR$\inc\cpp\xlocinfo</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32l1xx.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_rcc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\PowerMetr.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Classes.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_usart.__cstat.et</file>
+      <file>$PROJ_DIR$\src\PowerMetr.cpp</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\system_stm32l1xx.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupts.pbi</file>
+      <file>$PROJ_DIR$\main.cpp</file>
+      <file>$PROJ_DIR$\src\Classes.cpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32l1xx.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\src\Init.cpp</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_adc.h</file>
+      <file>$PROJ_DIR$\src\interrupts.cpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\misc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_it.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32l1xx_adc.o</file>
+      <file>$PROJ_DIR$\incl\Classes_def.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupts.o</file>
+      <file>$PROJ_DIR$\src\AdvClasses.cpp</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_tim.h</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\startup_stm32l1xx_md.s</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_adc.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_flash.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_it.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_gpio.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\misc.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_usart.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\system_stm32l1xx.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_rcc.c</file>
+      <file>$TOOLKIT_DIR$\inc\ecpp\xstring</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 36 27 56</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\MKAB-12.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 27 56</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 64 40 116 47 139 60 106 17 57 136 15 54 3 65 23 125 75 91 37 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\PowerMetr.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 53 80 16 119 21 46 138 102 84 52 105 133 74 63 0 98 87 76 19 29 72 73 43 69 42 101 100 85 92 90 48 123 55 70 9 137 41 66 1 13 49 4 109 12 108 88 59 32 33 111 78 28 35 62 45 5 67 124 130 38 141 20 14 31 96 107 126 68 97 132 110 89 95 93 99 83 6 30 61 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73 38 16 124 0 43 14 19 126 93 108 99 72 21 8 49 31 48 86 46 45 29 67 119 20 84 68 132 110 63 95 83 9 52 69 138 1 13 130 141 105 96 28 107 66 97 89 33 6 30 61 5 41 4 42 109 133 137 85 12 90 74 101 88 100 59 53 32 98 87 111 92 78 76 102 80 35 123 55 62 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Classes.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 29 66 8 6 28 31 89 33 0 109 141 96 110 61 84 4 137 67 13 130 14 107 97 63 30 2 26 41 85 119 5 21 124 38 20 19 126 68 48 132 95 93 108 99 83 86 9 52 46 73 105 1 43 69 138 49 42 133 12 90 74 101 88 100 59 53 32 98 87 111 92 78 76 102 80 35 123 55 62 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Init.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102 8 9 68 78 80 16 26 69 130 73 0 76 19 29 52 119 138 141 84 14 31 126 48 90 123 55 70 46 38 92 1 13 5 49 20 105 96 28 107 66 97 33 35 62 43 21 67 124 41 4 42 109 133 137 85 12 108 74 101 88 100 59 63 53 32 98 87 111 132 110 89 95 93 99 83 6 30 61 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\interrupts.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 0 16 13 105 95 130 63 72 8 52 68 132 110 83 84 9 1 138 141 46 14 31 19 126 48 93 108 99 86 45 119 5 49 38 20 73 29 96 28 107 66 97 89 33 6 30 61 43 21 67 124 41 4 42 109 133 137 85 12 90 74 101 88 100 59 53 32 98 87 111 92 78 76 102 80 35 123 55 62 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\AdvClasses.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 116 47 139 60 106 17 136 15 54 3 65 23 125</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 4 12 137 0 93 108 99 59 1 88 73 33 90 86 72 45 66 8 49 109 29 32 111 78 63 95 83 41 85 13 43 69 138 42 133 21 74 101 100 53 98 87 92 89 110 6 30 61 9 84 52 46 105 119 5 67 124 130 38 141 20 14 31 96 28 19 107 126 68 97 48 132 76 102 80 35 123 55 62 70</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9 52 137 84 41 16 46 8 1 13 0 69 67 124 21 138 5 49 119 43 130 4 38 42 141 109 20 133 66 29 73 14 12 85 90 108 74 31 105 101 88 100 96 28 126 59 19 53 32 63 107 98 87 33 92 132 68 110 78 76 89 95 93 102 80 97 111 99 35 123 55 70 62 6 48 30 61 83 86 72 45 122 2 26 128 131 121 147 118 143 144 146 145 150 148 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\startup_stm32l1xx_md.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 119 16 4 67 0 13 109 26 1 43 21 124 41 42 133 130 5 69 138 49 38 141 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124 8 1 13 141 43 69 16 130 119 5 21 67 49 38 20 4 0 138 41 42 109 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 21 67 13 16 1 38 43 49 20 119 5 69 124 130 141 0 138 41 4 42 109 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 67 0 13 8 119 5 16 4 26 1 43 21 124 41 42 133 38 69 138 49 130 141 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 43 138 16 8 141 1 69 130 119 5 0 49 38 20 133 21 67 124 41 4 42 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 1 16 5 8 13 43 0 49 38 26 119 69 138 130 141 109 21 67 124 41 4 42 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\system_stm32l1xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 16 42 13 43 41 1 133 8 119 5 138 4 109 69 21 67 124 49 130 38 141 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 13 0 38 8 1 5 16 20 119 69 138 130 141 26 43 21 67 124 41 4 42 109 133</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_flash.h</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1xx_adc.o</file>
+      <file>$PROJ_DIR$\Release\Obj\Init.__cstat.et</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\stm32l1100__it.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx.h</file>
+      <file>$PROJ_DIR$\incl\Classes.h</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1xx_rcc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\system_stm32l1xx.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1xx_gpio.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Release\Obj\PowerMetr.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1xx_flash.o</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1xx_adc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1xx_flash.pbi</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_wwdg.h</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1xx_it.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Release\Obj\PowerMetr.o</file>
+      <file>$PROJ_DIR$\Release\Obj\Init.o</file>
+      <file>$PROJ_DIR$\Release\Obj\AdvClasses.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\system_stm32f10x.pbi</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_dma.c</file>
+      <file>$PROJ_DIR$\Release\Obj\startup_stm32l1xx_md.o</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_dma.h</file>
+      <file>$PROJ_DIR$\Release\Obj\interrupts.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\main.o</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\startup_stm32f10x_md_vl.s</file>
+      <file>$PROJ_DIR$\Release\Obj\startup_stm32f10x_md_vl.o</file>
+      <file>$PROJ_DIR$\Release\Obj\AdvClasses.o</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1xx_rcc.o</file>
+      <file>$PROJ_DIR$\Release\Obj\interrupts.o</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1xx_it.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\MKAB-12.out</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1xx_dma.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1xx_dma.o</file>
+      <file>$PROJ_DIR$\Release\Obj\Classes.__cstat.et</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\system_stm32f10x.c</file>
+      <file>$PROJ_DIR$\Release\Obj\interrupts.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1xx_usart.o</file>
+      <file>$PROJ_DIR$\Release\Obj\system_stm32l1xx.o</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1100__it.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1xx_usart.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\stm32l1100__it.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Init.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Classes.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\AdvClasses.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Classes.o</file>
+      <file>$PROJ_DIR$\Release\Obj\PowerMetr.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\system_stm32f10x.__cstat.et</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_rcc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_gpio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_syscfg.h</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_conf.h</file>
+      <file>$PROJ_DIR$\incl\PowerMetr.h</file>
+      <file>$PROJ_DIR$\incl\params_def.h</file>
+      <file>$PROJ_DIR$\incl\init.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\incl\type_define.h</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_usart.h</file>
+      <file>$PROJ_DIR$\src\PowerMetr.cpp</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\system_stm32l1xx.h</file>
+      <file>$PROJ_DIR$\main.cpp</file>
+      <file>$PROJ_DIR$\src\Classes.cpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\src\Init.cpp</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_adc.h</file>
+      <file>$PROJ_DIR$\src\interrupts.cpp</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\misc.h</file>
+      <file>$PROJ_DIR$\incl\Classes_def.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\src\AdvClasses.cpp</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Include\Lxx\stm32l1xx_tim.h</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\startup_stm32l1xx_md.s</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_adc.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_flash.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_it.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_gpio.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_usart.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\system_stm32l1xx.c</file>
+      <file>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_rcc.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\stm32l1100__it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 6 70 77 54 10 60 12 79 0 1 68 27 66 20 65 73 57 81 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\startup_stm32f10x_md_vl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\system_stm32f10x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\PowerMetr.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 6 63 62 12 81 55 67 65 7 78 58 64 60 66 20 73 57 18 61 10 0 79 1 59 68 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 66 20 73 81 12 6 62 65 10 56 7 55 79 70 60 57 18 63 67 1 59 68 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Classes.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 70 6 67 81 55 63 62 65 78 58 64 60 66 20 73 57 18 7 10 0 79 1 59 68 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Init.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 20 73 57 63 70 0 12 18 62 6 10 65 81 67 60 79 1 59 68 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\interrupts.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 59 6 77 75 10 60 12 79 0 1 68 66 20 65 73 57 81 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\AdvClasses.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 70 6 67 81 55 63 62 65 78 58 64 60 66 20 73 57 18 7 10 0 79 1 59 68 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\startup_stm32l1xx_md.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 65 12 70 81 54 10 0 66 20 73 57 18 75 60 79 1 59 68 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 0 6 12 70 66 20 73 57 10 65 81 1 60 79 59 68 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 10 79 0 1 60 12 68 70 59 77 66 20 65 73 57 81 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 59 70 77 54 10 60 12 79 0 1 68 57 66 20 65 73 81 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 79 0 1 10 60 12 68 54 70 59 77 66 20 65 73 57 81 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\system_stm32l1xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 70 79 0 1 60 12 68 10 59 77 66 20 65 73 57 81 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 0 70 12 6 66 20 73 57 10 65 81 54 60 79 1 59 68 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_dma.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\PowerMetr.cpp</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\main.cpp</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\Classes.cpp</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\Init.cpp</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\interrupts.cpp</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\AdvClasses.cpp</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_adc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_flash.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_it.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_gpio.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_usart.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\system_stm32l1xx.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\lib\CMSIS\Source\Lxx\stm32l1xx_rcc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
